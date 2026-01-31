@@ -1,3 +1,8 @@
+/***************************************************************************************************
+ * Qt Creator VS Code Icons Theme
+ *
+ * Copyright (C) 2026-2026 x-tools-author(x-tools@outlook.com). All rights reserved.
+ ***************************************************************************************************/
 #include <QDir>
 #include <QFile>
 #include <QIcon>
