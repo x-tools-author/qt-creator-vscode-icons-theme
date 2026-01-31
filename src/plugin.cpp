@@ -93,6 +93,7 @@ static void registerIcons()
     registerIcon(VS_CODE_FILE_ICON("cmake"), "text/x-cmake-project");
     registerIcon(VS_CODE_FILE_ICON("shell"), "application/x-bat");
     registerIcon(VS_CODE_FILE_ICON("ini"), "text/x-rc");
+    registerIcon(VS_CODE_FILE_ICON("docker"), "application/x-dockerfile");
 
     // Qt
     registerIcon(NOT_VS_CODE_ICON("qt"), "application/vnd.qt.xml.resource");
@@ -196,14 +197,15 @@ static QIcon getFileIcon(const QFileInfo& info)
     }
 
     QString cookedSuffix;
-    if (fileIconCache.contains(info.fileName())) {
-        cookedSuffix = info.fileName();
-    } else if (info.fileName().startsWith('.') && fileIconCache.contains(info.fileName().mid(1))) {
-        cookedSuffix = info.fileName().mid(1);
-    } else if (fileIconCache.contains(info.completeSuffix())) {
-        cookedSuffix = info.completeSuffix();
-    } else if (fileIconCache.contains(info.suffix())) {
-        cookedSuffix = info.suffix();
+    if (fileIconCache.contains(info.fileName().toLower())) {
+        cookedSuffix = info.fileName().toLower();
+    } else if (info.fileName().startsWith('.')
+               && fileIconCache.contains(info.fileName().mid(1).toLower())) {
+        cookedSuffix = info.fileName().mid(1).toLower();
+    } else if (fileIconCache.contains(info.completeSuffix().toLower())) {
+        cookedSuffix = info.completeSuffix().toLower();
+    } else if (fileIconCache.contains(info.suffix().toLower())) {
+        cookedSuffix = info.suffix().toLower();
     }
 
     const QString iconName = fileIconCache.value(cookedSuffix.toLower());
