@@ -334,7 +334,8 @@ public:
             }
 
             static QFont listViewFont(*font);
-            listViewFont.setPixelSize(12);
+            int size = font->pixelSize() + 2;
+            listViewFont.setPixelSize(size < 12 ? 12 : size);
             return &listViewFont;
         }
         return m_platformTheme->font(type);
