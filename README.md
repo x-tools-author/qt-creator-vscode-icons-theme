@@ -7,7 +7,7 @@ Based upon [vscode-icons](https://github.com/vscode-icons/vscode-icons).
 
 ![Screenshot-macOS](https://raw.githubusercontent.com/cristianadam/qt-creator-nomo-icontheme/refs/heads/master/screenshots/macOS.png)
 ![Screenshot-Linux](https://raw.githubusercontent.com/cristianadam/qt-creator-nomo-icontheme/refs/heads/master/screenshots/Linux.png)
-![Screenshot-Windows](https://raw.githubusercontent.com/cristianadam/qt-creator-nomo-icontheme/refs/heads/master/screenshots/Windows.png)
+![Screenshot-Windows](https://raw.githubusercontent.com/x-tools-author/qt-creator-vscode-icons-theme/refs/heads/master/screenshots/Windows.png)
 
 # License
 
