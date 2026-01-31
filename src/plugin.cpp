@@ -439,7 +439,7 @@ public:
     {
 #ifdef Q_OS_WIN32
         QTimer* timer = new QTimer(this);
-        timer->setInterval(100);
+        timer->setInterval(200);
         connect(timer, &QTimer::timeout, this, [timer, this]() {
             QWidget* widget = Core::ICore::mainWindow();
             if (widget) {
