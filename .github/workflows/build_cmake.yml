@@ -2,11 +2,14 @@ name: Build plugin
 
 on:
   workflow_dispatch: # Enables manually
+  push:
+    tags:
+      - 'v*'
 
 env:
   PLUGIN_NAME: NomoIconTheme
-  QT_VERSION: 6.10.0
-  QT_CREATOR_VERSION: 18.0.0
+  QT_VERSION: 6.10.2
+  QT_CREATOR_VERSION: 18.0.2
   MACOS_DEPLOYMENT_TARGET: "11.0"
   CMAKE_VERSION: "3.29.6"
   NINJA_VERSION: "1.12.1"
