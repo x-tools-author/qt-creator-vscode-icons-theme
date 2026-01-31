@@ -18,8 +18,6 @@
 #include <utils/fsengine/fileiconprovider.h>
 #include <utils/hostosinfo.h>
 
-#include <optional>
-
 #ifdef Q_OS_WIN32
 #include <dwmapi.h>
 
@@ -28,7 +26,6 @@
 #include <QAbstractNativeEventFilter>
 #include <QColor>
 #include <QPalette>
-#include <QSysInfo>
 #include <QTimer>
 #include <QWidget>
 #include <QWindow>
