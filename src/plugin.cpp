@@ -91,6 +91,8 @@ static void registerIcons()
     registerIcon(VS_CODE_FILE_ICON("cmake"), "text/x-cmake");
     registerIcon(VS_CODE_FILE_ICON("cmake"), "text/x-cmake-in");
     registerIcon(VS_CODE_FILE_ICON("cmake"), "text/x-cmake-project");
+    registerIcon(VS_CODE_FILE_ICON("shell"), "application/x-bat");
+    registerIcon(VS_CODE_FILE_ICON("ini"), "text/x-rc");
 
     // Qt
     registerIcon(NOT_VS_CODE_ICON("qt"), "application/vnd.qt.xml.resource");
@@ -332,7 +334,7 @@ public:
             }
 
             static QFont listViewFont(*font);
-            listViewFont.setPixelSize(14);
+            listViewFont.setPixelSize(12);
             return &listViewFont;
         }
         return m_platformTheme->font(type);
