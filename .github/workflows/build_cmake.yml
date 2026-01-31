@@ -1,6 +1,7 @@
 name: Build plugin
 
-on: [push]
+on:
+  workflow_dispatch: # Enables manually
 
 env:
   PLUGIN_NAME: NomoIconTheme
