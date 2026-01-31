@@ -1,0 +1,4404 @@
+[
+  {
+    "icon": "access",
+    "extensions": [
+      "accdb",
+      "accdt",
+      "mdb",
+      "accda",
+      "accdc",
+      "accde",
+      "accdp",
+      "accdr",
+      "accdu",
+      "ade",
+      "adp",
+      "laccdb",
+      "ldb",
+      "mam",
+      "maq",
+      "mdw"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "affinity",
+    "extensions": [
+      "af",
+      "aftemplate"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "ai",
+    "extensions": [
+      "ai",
+      "ai"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "al_dal",
+    "extensions": [
+      "dal"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "allcontributors",
+    "extensions": [
+      ".all-contributorsrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "allure",
+    "extensions": [
+      "allurerc.js",
+      "allurerc.mjs",
+      "allurerc.cjs",
+      "allurerc.json",
+      "allurerc.yaml",
+      "allurerc.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "affinitydesigner",
+    "extensions": [
+      "afdesign",
+      "affinitydesigner"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "affinityphoto",
+    "extensions": [
+      "afphoto",
+      "affinityphoto"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "affinitypublisher",
+    "extensions": [
+      "afpub",
+      "affinitypublisher"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "agents",
+    "extensions": [
+      "agents.md"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "appscript",
+    "extensions": [
+      "gs"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "fitbit",
+    "extensions": [
+      "fba"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "angular",
+    "extensions": [
+      ".angular-cli.json",
+      "angular-cli.json",
+      "angular.json",
+      ".angular.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "nanostaged",
+    "extensions": [
+      ".nano-staged.js",
+      "nano-staged.js",
+      ".nano-staged.cjs",
+      "nano-staged.cjs",
+      ".nano-staged.mjs",
+      "nano-staged.mjs",
+      ".nano-staged.json",
+      "nano-staged.json",
+      ".nanostagedrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "ng_tailwind",
+    "extensions": [
+      "ng-tailwind.js"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "alchemy",
+    "extensions": [
+      "alchemy.run.ts"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "antlers_html",
+    "extensions": [
+      "antlers.html"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "api_extractor",
+    "extensions": [
+      "api-extractor.json",
+      "api-extractor-base.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "appsemble",
+    "extensions": [
+      ".appsemblerc.yaml",
+      "app-definition.yaml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "appveyor",
+    "extensions": [
+      "appveyor.yml",
+      ".appveyor.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "arduino",
+    "extensions": [
+      "arduino",
+      "ino",
+      "pde"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "aseprite",
+    "extensions": [
+      "ase",
+      "aseprite"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "assembly_script",
+    "extensions": [
+      "asconfig.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "aspx",
+    "extensions": [
+      "aspx",
+      "aspx",
+      "ascx"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "assembly",
+    "extensions": [
+      "asm",
+      "s"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "astro",
+    "extensions": [
+      "astro"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "atom",
+    "extensions": [
+      "atom"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "attw",
+    "extensions": [
+      ".attw.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "audio",
+    "extensions": [
+      "aac",
+      "act",
+      "aiff",
+      "amr",
+      "ape",
+      "au",
+      "dct",
+      "dss",
+      "dvf",
+      "flac",
+      "gsm",
+      "iklax",
+      "ivs",
+      "m4a",
+      "m4b",
+      "m4p",
+      "mmf",
+      "mogg",
+      "mp3",
+      "mpc",
+      "msv",
+      "oga",
+      "ogg",
+      "opus",
+      "ra",
+      "raw",
+      "tta",
+      "vox",
+      "wav",
+      "wma"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "aurelia",
+    "extensions": [
+      "aurelia.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "avif",
+    "extensions": [
+      "avif"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "awk",
+    "extensions": [
+      "awk"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "aws",
+    "extensions": [
+      "aws"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "azurepipelines",
+    "extensions": [
+      "azure-pipelines.yml",
+      ".vsts-ci.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "babel",
+    "extensions": [
+      ".babelrc",
+      ".babelignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "bak",
+    "extensions": [
+      "back",
+      "backup",
+      "bak"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "bazaar",
+    "extensions": [
+      ".bzrignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "bazel",
+    "extensions": [
+      "BUILD.bazel",
+      ".bazelrc",
+      "bazel.rc",
+      "bazel.bazelrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "bazel_ignore",
+    "extensions": [
+      ".bazelignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "bazel_version",
+    "extensions": [
+      ".bazelversion"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "binary",
+    "extensions": [
+      "a",
+      "app",
+      "bin",
+      "cmo",
+      "cmx",
+      "cma",
+      "cmxa",
+      "cmi",
+      "dll",
+      "exe",
+      "hl",
+      "ilk",
+      "lib",
+      "n",
+      "ndll",
+      "o",
+      "obj",
+      "pyc",
+      "pyd",
+      "pyo",
+      "pdb",
+      "scpt",
+      "scptd",
+      "so"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "bithound",
+    "extensions": [
+      ".bithoundrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "bitbucketpipeline",
+    "extensions": [
+      "bitbucket-pipelines.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "blender",
+    "extensions": [
+      "blend"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "blitzbasic",
+    "extensions": [
+      "bb"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "bower",
+    "extensions": [
+      ".bowerrc",
+      "bower.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "browserslist",
+    "extensions": [
+      ".browserslistrc",
+      "browserslist"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "buckbuild",
+    "extensions": [
+      ".buckconfig"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "buf",
+    "extensions": [
+      "buf.yaml",
+      "buf.yml",
+      "buf.gen.yml",
+      "buf.gen.yaml",
+      "buf.work.yaml",
+      "buf.work.yml"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "bun",
+    "extensions": [
+      ".bunfig.toml",
+      "bunfig.toml",
+      "bun.lockb",
+      "bun.lock"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "bundlemon",
+    "extensions": [
+      ".bundlemonrc",
+      "bundlemon.config.js",
+      "bundlemon.config.mjs",
+      "bundlemon.config.cjs"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "bundler",
+    "extensions": [
+      "gemfile",
+      "gemfile.lock"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "bundler",
+    "extensions": [
+      "gemfile",
+      "gemfile.lock"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "bunfig",
+    "extensions": [
+      "bunfig.toml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "cake",
+    "extensions": [
+      "cake",
+      "cake"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "cakephp",
+    "extensions": [
+      "cakephp"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "cargo",
+    "extensions": [
+      "Cargo.toml",
+      "Cargo.lock"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "cert",
+    "extensions": [
+      "csr",
+      "crt",
+      "cer",
+      "der",
+      "pfx",
+      "p12",
+      "p7b",
+      "p7r",
+      "src",
+      "crl",
+      "sst",
+      "stl"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "cf",
+    "extensions": [
+      "lucee"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "cheader",
+    "extensions": [
+      "h"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "changie",
+    "extensions": [
+      ".changie.yaml",
+      ".changie.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "chef",
+    "extensions": [
+      "chefignore",
+      "berksfile",
+      "berksfile.lock",
+      "policyfile.rb",
+      "policyfile.lock.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "circleci",
+    "extensions": [
+      "circle.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "class",
+    "extensions": [
+      "class",
+      "class"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "claude",
+    "extensions": [
+      "claude.md"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "clojure",
+    "extensions": [
+      "cjm",
+      "cljc"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "clojurescript",
+    "extensions": [
+      "cljs"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "cloudflare",
+    "extensions": [
+      "wrangler.toml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "cloudfoundry",
+    "extensions": [
+      ".cfignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "codemagic",
+    "extensions": [
+      "codemagic.yaml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "codeowners",
+    "extensions": [
+      "codeowners"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "codacy",
+    "extensions": [
+      ".codacy.yml",
+      ".codacy.yaml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "codeclimate",
+    "extensions": [
+      ".codeclimate.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "codecov",
+    "extensions": [
+      "codecov.yml",
+      ".codecov.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "codekit",
+    "extensions": [
+      "codekit",
+      "kit"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "codekit",
+    "extensions": [
+      "config.codekit",
+      "config.codekit2",
+      "config.codekit3",
+      ".config.codekit",
+      ".config.codekit2",
+      ".config.codekit3"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "coderabbit",
+    "extensions": [
+      ".coderabbit.yaml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "coffeelint",
+    "extensions": [
+      "coffeelint.json",
+      ".coffeelintignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "conan",
+    "extensions": [
+      "conanfile.txt",
+      "conanfile.py"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "conda",
+    "extensions": [
+      ".condarc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "config",
+    "extensions": [
+      "plist"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "config",
+    "extensions": [
+      ".tool-versions"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "commitizen",
+    "extensions": [
+      ".czrc",
+      ".cz.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "commitlint",
+    "extensions": [
+      ".commitlintrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "commitlint",
+    "extensions": [
+      "commitlint.config.js",
+      "commitlint.config.cjs",
+      "commitlint.config.mjs",
+      "commitlint.config.ts",
+      "commitlint.config.cts"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "compass",
+    "extensions": [
+      "compass"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "composer",
+    "extensions": [
+      "composer.json",
+      "composer.lock"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "copilot",
+    "extensions": [
+      "copilot-instructions.md",
+      "github-copilot.xml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "coverage",
+    "extensions": [
+      ".coverage",
+      "lcov.info"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "coverage",
+    "extensions": [
+      "lcov"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "coveralls",
+    "extensions": [
+      ".coveralls.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "cppheader",
+    "extensions": [
+      "hpp",
+      "hh",
+      "hxx",
+      "h++"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "craco",
+    "extensions": [
+      "craco.config.ts",
+      "craco.config.js",
+      "craco.config.cjs",
+      ".cracorc.ts",
+      ".cracorc.js",
+      ".cracorc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "crowdin",
+    "extensions": [
+      "crowdin.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "csharp",
+    "extensions": [
+      "csx"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "csproj",
+    "extensions": [
+      "csproj",
+      "csproj"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "csscomb",
+    "extensions": [
+      ".csscomb.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "csslint",
+    "extensions": [
+      ".csslintrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "cssmap",
+    "extensions": [
+      "cssmap",
+      "css.map"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "cursorrules",
+    "extensions": [
+      ".cursorignore",
+      ".cursorindexingignore",
+      ".cursorrules"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "cypress",
+    "extensions": [
+      "cypress.json",
+      "cypress.env.json",
+      "cypress.config.js",
+      "cypress.config.ts",
+      "cypress.config.cjs",
+      "cypress.config.mjs"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "cypress_spec",
+    "extensions": [
+      "cy.js",
+      "cy.mjs",
+      "cy.cjs",
+      "cy.coffee",
+      "cy.ts",
+      "cy.tsx",
+      "cy.jsx"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "cvs",
+    "extensions": [
+      ".cvsignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "darcs",
+    "extensions": [
+      ".boringignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "dartlang_generated",
+    "extensions": [
+      "g.dart",
+      "freezed.dart"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "dartlang_ignore",
+    "extensions": [
+      ".pubignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "datadog",
+    "extensions": [
+      "service.datadog.yaml",
+      "datadog-ci.json",
+      "static-analysis.datadog.yml",
+      "static-analysis.datadog.yaml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "db",
+    "extensions": [
+      "db",
+      "db"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "debian",
+    "extensions": [
+      "deb"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "debian",
+    "extensions": [
+      "aptfile"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "denoify",
+    "extensions": [
+      ".denoifyrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "dependabot",
+    "extensions": [
+      "dependabot.yml",
+      "dependabot.yaml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "dependencies",
+    "extensions": [
+      "dependencies.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "design_tokens",
+    "extensions": [
+      "resolver.json",
+      "resolver.json5",
+      "resolver.jsonc",
+      "tokens.json",
+      "tokens.json5",
+      "tokens.jsonc"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "devcontainer",
+    "extensions": [
+      "devcontainer.json",
+      ".devcontainer.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "django",
+    "extensions": [
+      "djt"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "docker",
+    "extensions": [
+      ".dockerignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "dockertest",
+    "extensions": [
+      "docker-compose.test.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "docpad",
+    "extensions": [
+      "eco"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "docz",
+    "extensions": [
+      ".doczrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "dojo",
+    "extensions": [
+      ".dojorc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "drawio",
+    "extensions": [
+      "drawio",
+      "dio"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "drone",
+    "extensions": [
+      ".drone.yml",
+      ".drone.yml.sig"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "dtd",
+    "extensions": [
+      "dtd"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "dvc",
+    "extensions": [
+      ".dvc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "editorconfig",
+    "extensions": [
+      ".editorconfig"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "earthly",
+    "extensions": [
+      ".earthlyignore",
+      "Earthfile"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "eas-metadata",
+    "extensions": [
+      "store.config.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "eex",
+    "extensions": [
+      "eex",
+      "heex",
+      "phoenix-heex",
+      "html-heex"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "ejs",
+    "extensions": [
+      "ejs",
+      "ejs"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "elasticbeanstalk",
+    "extensions": [
+      "elasticbeanstalk"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "electron",
+    "extensions": [
+      "forge.config.js",
+      "forge.config.ts"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "eleventy",
+    "extensions": [
+      ".eleventy.js",
+      "eleventy.config.js",
+      "eleventy.config.cjs",
+      "eleventy.config.mjs"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "elm",
+    "extensions": [
+      "elm-package.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "emacs",
+    "extensions": [
+      "emacs",
+      "el",
+      "elc"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "ember",
+    "extensions": [
+      ".ember-cli"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "ensime",
+    "extensions": [
+      "ensime",
+      "ensime"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "eps",
+    "extensions": [
+      "eps",
+      "eps"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "epub",
+    "extensions": [
+      "epub",
+      "epub"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "erlang",
+    "extensions": [
+      "emakefile",
+      ".emakerfile"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "eslint",
+    "extensions": [
+      ".eslintrc",
+      ".eslintignore",
+      ".eslintcache",
+      "eslint.config.js",
+      "eslint.config.mjs",
+      "eslint.config.cjs",
+      "eslint.config.ts",
+      "eslint.config.mts",
+      "eslint.config.cts"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "excalidraw",
+    "extensions": [
+      "excalidraw",
+      "excalidraw.json",
+      "excalidraw.svg",
+      "excalidraw.png"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "excel",
+    "extensions": [
+      "xls",
+      "xlsx",
+      "xlsm",
+      "ods",
+      "fods",
+      "xlsb"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "expo",
+    "extensions": [
+      "app.json",
+      "app.config.js",
+      "app.config.json",
+      "app.config.json5"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "fantasticon",
+    "extensions": [
+      ".fantasticonrc",
+      "fantasticonrc",
+      ".fantasticonrc.json",
+      "fantasticonrc.json",
+      ".fantasticonrc.js",
+      "fantasticonrc.js"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "fauna",
+    "extensions": [
+      ".faunarc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "fastly",
+    "extensions": [
+      "fastly.toml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "favicon",
+    "extensions": [
+      "favicon.ico"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "fbx",
+    "extensions": [
+      "fbx",
+      "fbx"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "firebase",
+    "extensions": [
+      ".firebaserc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "firebasehosting",
+    "extensions": [
+      "firebase.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "firebasestorage",
+    "extensions": [
+      "storage.rules"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "firestore",
+    "extensions": [
+      "firestore.rules",
+      "firestore.indexes.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "fla",
+    "extensions": [
+      "fla"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "flash",
+    "extensions": [
+      "flash",
+      "swf",
+      "swc"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "floobits",
+    "extensions": [
+      ".flooignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "flow",
+    "extensions": [
+      "flow",
+      "js.flow"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "flow",
+    "extensions": [
+      ".flowconfig"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "flutter",
+    "extensions": [
+      ".flutter-plugins",
+      ".metadata",
+      ".flutter-plugins-dependencies"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "flutter_package",
+    "extensions": [
+      "pubspec.lock",
+      "pubspec.yaml",
+      ".packages"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "flyio",
+    "extensions": [
+      "fly.toml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "font",
+    "extensions": [
+      "woff",
+      "woff2",
+      "ttf",
+      "otf",
+      "eot",
+      "pfa",
+      "pfb",
+      "sfd"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "fossa",
+    "extensions": [
+      ".fossaignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "fossil",
+    "extensions": [
+      "ignore-glob"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "fsproj",
+    "extensions": [
+      "fsproj",
+      "fsproj"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "frontcommerce",
+    "extensions": [
+      ".front-commerce.js",
+      "front-commerce.config.ts"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "funding",
+    "extensions": [
+      "funding.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "fusebox",
+    "extensions": [
+      "fuse.js"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "git",
+    "extensions": [
+      ".git",
+      ".gitattributes",
+      ".gitconfig",
+      ".gitignore",
+      ".gitmodules",
+      ".gitkeep",
+      ".git-blame-ignore-revs",
+      ".mailmap",
+      ".issuetracker"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "gamemaker",
+    "extensions": [
+      "gmx"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "gamemaker2",
+    "extensions": [
+      "yy",
+      "yyp"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "gduid",
+    "extensions": [
+      "gd.uid"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "gcloud",
+    "extensions": [
+      ".gcloudignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "gemini",
+    "extensions": [
+      "gemini.md",
+      "GEMINI.md"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "geojson",
+    "extensions": [
+      "geojson"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "gimp",
+    "extensions": [
+      "xcf"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "gitlab",
+    "extensions": [
+      ".gitlab-ci.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "gleam",
+    "extensions": [
+      "gleam"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "gleamconfig",
+    "extensions": [
+      "gleam.toml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "glide",
+    "extensions": [
+      "glide.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "glitter",
+    "extensions": [
+      ".glitterrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "gltf",
+    "extensions": [
+      "glb",
+      "gltf"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "gnu",
+    "extensions": [
+      "am",
+      "ld",
+      "m4",
+      "makefile"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "go_package",
+    "extensions": [
+      "go.sum",
+      "go.mod"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "go_work",
+    "extensions": [
+      "go.work",
+      "go.work.sum"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "godot",
+    "extensions": [
+      "godot"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "gpg",
+    "extensions": [
+      "gpg",
+      "pgp"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "gradle",
+    "extensions": [
+      "gradle"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "grain",
+    "extensions": [
+      "gr"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "graphql",
+    "extensions": [
+      ".gqlconfig"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "graphql_config",
+    "extensions": [
+      ".graphqlconfig"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "greenkeeper",
+    "extensions": [
+      "greenkeeper.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "hashicorp",
+    "extensions": [
+      "hcl2",
+      "sentinel"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "haxe",
+    "extensions": [
+      "haxelib.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "haxecheckstyle",
+    "extensions": [
+      "checkstyle.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "haxedevelop",
+    "extensions": [
+      "haxedevelop",
+      "hxproj"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "helix",
+    "extensions": [
+      ".p4ignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "helm",
+    "extensions": [
+      "chart.lock",
+      "chart.yaml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "histoire",
+    "extensions": [
+      "histoire.config.ts",
+      "histoire.config.js",
+      ".histoire.ts",
+      ".histoire.js"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "horusec",
+    "extensions": [
+      "horusec-config.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "htmlhint",
+    "extensions": [
+      ".htmlhintrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "htmlvalidate",
+    "extensions": [
+      ".htmlvalidateignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "hugo",
+    "extensions": [
+      "hugo.json",
+      "hugo.toml",
+      "hugo.yaml",
+      ".hugo_build.lock"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "humanstxt",
+    "extensions": [
+      "humans.txt"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "husky",
+    "extensions": [
+      ".huskyrc",
+      "husky.config.js"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "hygen",
+    "extensions": [
+      "ejs.t"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "idris",
+    "extensions": [
+      "idris",
+      "idr",
+      "lidr"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "idrisbin",
+    "extensions": [
+      "idrisbin",
+      "ibc"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "idrispkg",
+    "extensions": [
+      "idrispkg",
+      "ipkg"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "image",
+    "extensions": [
+      "jpeg",
+      "jpg",
+      "gif",
+      "png",
+      "bmp",
+      "tiff",
+      "heic",
+      "ico",
+      "icns",
+      "webp",
+      "ico",
+      "icns"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "imba",
+    "extensions": [
+      "imba",
+      "imba2"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "inc",
+    "extensions": [
+      "inc",
+      "include"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "infopath",
+    "extensions": [
+      "infopathxml",
+      "xsn",
+      "xsf",
+      "xtp2"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "ionic",
+    "extensions": [
+      "ionic.project",
+      "ionic.config.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "jake",
+    "extensions": [
+      "jakefile",
+      "jakefile.js"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "jar",
+    "extensions": [
+      "jar",
+      "jar"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "jasmine",
+    "extensions": [
+      "jasmine.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "jbuilder",
+    "extensions": [
+      "jbuilder",
+      "jbuilder"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "jest",
+    "extensions": [
+      "jest.json",
+      "jest.config.babel.js",
+      ".jestrc",
+      ".jestrc.js",
+      ".jestrc.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "jekyll",
+    "extensions": [
+      ".nojekyll"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "jpm",
+    "extensions": [
+      ".jpmignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "jsbeautify",
+    "extensions": [
+      ".jsbeautifyrc",
+      "jsbeautifyrc",
+      ".jsbeautify",
+      "jsbeautify"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "jsconfig",
+    "extensions": [
+      "jsconfig.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "jscpd",
+    "extensions": [
+      ".jscpd.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "jshint",
+    "extensions": [
+      ".jshintrc",
+      ".jshintignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "jsmap",
+    "extensions": [
+      "js.map",
+      "cjs.map",
+      "mjs.map"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "json",
+    "extensions": [
+      "jsonl",
+      "ndjson"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "json_schema",
+    "extensions": [
+      "schema.json"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "json5",
+    "extensions": [
+      "json5"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "jsonld",
+    "extensions": [
+      "jsonld",
+      "json-ld"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "jsp",
+    "extensions": [
+      "jsp",
+      "jsp"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "jsr",
+    "extensions": [
+      "jsr.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "jss",
+    "extensions": [
+      "jss",
+      "jss"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "juice",
+    "extensions": [
+      "juice"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "jupyter",
+    "extensions": [
+      "jupyter",
+      "ipynb"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "jetbrains",
+    "extensions": [
+      "iml"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "key",
+    "extensions": [
+      "key",
+      "key",
+      "pem"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "kite",
+    "extensions": [
+      ".kiteignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "kitchenci",
+    "extensions": [
+      ".kitchen.yml",
+      "kitchen.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "kotlin",
+    "extensions": [
+      "ktm"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "language_configuration",
+    "extensions": [
+      "language-configuration.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "language_configuration",
+    "extensions": [
+      "language-configuration.json"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "layout",
+    "extensions": [
+      "master",
+      "layout.html",
+      "layout.htm"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "layout",
+    "extensions": [
+      "layout.html",
+      "layout.htm"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "leanconfig",
+    "extensions": [
+      "lakefile.lean",
+      "lakefile.toml",
+      "lake-manifest.json",
+      "lean-toolchain"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "lerna",
+    "extensions": [
+      "lerna.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "libreoffice_base",
+    "extensions": [
+      "odb",
+      "otb"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "libreoffice_calc",
+    "extensions": [
+      "fods",
+      "ods",
+      "ots"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "libreoffice_draw",
+    "extensions": [
+      "odg",
+      "otg"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "libreoffice_impress",
+    "extensions": [
+      "odp",
+      "otp"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "libreoffice_math",
+    "extensions": [
+      "odf",
+      "otf"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "libreoffice_writer",
+    "extensions": [
+      "odt",
+      "ott"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "license",
+    "extensions": [
+      "enc",
+      "license",
+      "lic"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "license",
+    "extensions": [
+      "licence",
+      "LICENCE",
+      "license",
+      "LICENSE",
+      "copying",
+      "copying.lesser",
+      "LICENSE-MIT",
+      "license-mit",
+      "LICENSE-APACHE",
+      "license-apache",
+      "LICENSE-GPL",
+      "license-gpl",
+      "LICENSE-AGPL",
+      "license-agpl"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "licensebat",
+    "extensions": [
+      ".licrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "lighthouse",
+    "extensions": [
+      "budget.json",
+      "budgets.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "lime",
+    "extensions": [
+      "lime",
+      "hxp"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "lime",
+    "extensions": [
+      "include.xml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "lintstagedrc",
+    "extensions": [
+      ".lintstagedrc",
+      ".lintstagedrc.json",
+      ".lintstagedrc.yaml",
+      ".lintstagedrc.yml",
+      ".lintstagedrc.mjs",
+      ".lintstagedrc.mts",
+      ".lintstagedrc.js",
+      ".lintstagedrc.ts",
+      ".lintstagedrc.cjs",
+      ".lintstagedrc.cts",
+      "lint-staged.config.mjs",
+      "lint-staged.config.mts",
+      "lint-staged.config.js",
+      "lint-staged.config.ts",
+      "lint-staged.config.cjs",
+      "lint-staged.config.cts"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "liquid",
+    "extensions": [
+      "liquid",
+      "liquid"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "livescript",
+    "extensions": [
+      "livescript",
+      "ls"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "lnk",
+    "extensions": [
+      "lnk",
+      "lnk"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "locale",
+    "extensions": [
+      "locale"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "log",
+    "extensions": [
+      "log",
+      "log",
+      "tlg"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "log",
+    "extensions": [
+      "log",
+      "tlg"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "luau",
+    "extensions": [
+      "luau"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "lync",
+    "extensions": [
+      "lync",
+      "crec",
+      "ocrec"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "mailing",
+    "extensions": [
+      "mailing.config.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "manifest",
+    "extensions": [
+      "manifest"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "manifest_skip",
+    "extensions": [
+      "manifest.skip"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "manifest_bak",
+    "extensions": [
+      "manifest.bak"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "map",
+    "extensions": [
+      "map",
+      "map"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "markdown",
+    "extensions": [
+      "mdown",
+      "markdown"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "markdownlint",
+    "extensions": [
+      ".markdownlintrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "markdownlint_ignore",
+    "extensions": [
+      ".markdownlintignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "markojs",
+    "extensions": [
+      "markojs",
+      "marko.js"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "markuplint",
+    "extensions": [
+      ".markuplintrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "matlab",
+    "extensions": [
+      "fig",
+      "mex",
+      "mexn",
+      "mexrs6",
+      "mn",
+      "mum",
+      "mx",
+      "mx3",
+      "rwd",
+      "slx",
+      "slddc",
+      "smv",
+      "xvc"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "maven",
+    "extensions": [
+      "maven.config"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "mcp",
+    "extensions": [
+      "mcp.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "mdxlint",
+    "extensions": [
+      ".mdxlintrc",
+      ".mdxlintignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "mercurial",
+    "extensions": [
+      ".hgignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "meteor",
+    "extensions": [
+      "meteor"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "mocha",
+    "extensions": [
+      "mocha.opts"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "modernizr",
+    "extensions": [
+      "modernizr"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "mojo",
+    "extensions": [
+      "mojo",
+      "🔥"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "mondoo",
+    "extensions": [
+      "mql.yaml",
+      "mql.yml"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "monotone",
+    "extensions": [
+      ".mtn-ignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "motif",
+    "extensions": [
+      "motif.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "mustache",
+    "extensions": [
+      "mustache",
+      "mst"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "minecraft",
+    "extensions": [
+      "mca",
+      "mcmeta"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "mypy",
+    "extensions": [
+      "mypy.ini",
+      ".mypy.ini"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "ndst",
+    "extensions": [
+      "ndst.yaml",
+      "ndst.yml",
+      "ndst.json"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "nestjs",
+    "extensions": [
+      ".nest-cli.json",
+      "nest-cli.json",
+      "nestconfig.json",
+      ".nestconfig.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "netlify",
+    "extensions": [
+      "netlify.toml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "next",
+    "extensions": [
+      "next.config.js",
+      "next.config.cjs",
+      "next.config.mjs",
+      "next.config.ts"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "nextflow",
+    "extensions": [
+      ".nf"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "nginx",
+    "extensions": [
+      "nginx.conf"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "ninja",
+    "extensions": [
+      "build.ninja"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "noc",
+    "extensions": [
+      "noc"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "nix",
+    "extensions": [
+      "flake.lock"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "njsproj",
+    "extensions": [
+      "njsproj",
+      "njsproj"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "node",
+    "extensions": [
+      ".node-version",
+      ".nvmrc",
+      "node.config.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "nodemon",
+    "extensions": [
+      "nodemon.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "npm",
+    "extensions": [
+      ".npmignore",
+      ".npmrc",
+      ".package-lock.json",
+      "package.json",
+      "package-lock.json",
+      "npm-shrinkwrap.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "npmpackagejsonlint",
+    "extensions": [
+      ".npmpackagejsonlintrc",
+      ".npmpackagejsonlintrc.cjs",
+      ".npmpackagejsonlintrc.js",
+      ".npmpackagejsonlintrc.json",
+      ".npmpackagejsonlintrc.yaml",
+      ".npmpackagejsonlintrc.yml",
+      ".npmpackagejsonlintrc.mjs",
+      ".npmpackagejsonlintignore",
+      "npmpackagejsonlint.config.cjs",
+      "npmpackagejsonlint.config.js",
+      "npmpackagejsonlint.config.mjs"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "nsri",
+    "extensions": [
+      ".nsrirc",
+      ".nsriignore",
+      "nsri.config.js"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "nsri-integrity",
+    "extensions": [
+      ".integrity.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "nuget",
+    "extensions": [
+      "nupkg",
+      "snupkg",
+      "nuspec",
+      "psmdcp"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "numpy",
+    "extensions": [
+      "npy",
+      "npz"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "nunjucks",
+    "extensions": [
+      "nunj",
+      "njs"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "nuxt",
+    "extensions": [
+      ".nuxtignore",
+      ".nuxtrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "nyc",
+    "extensions": [
+      ".nycrc",
+      ".nycrc.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "objidconfig",
+    "extensions": [
+      ".objidconfig"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "ocaml",
+    "extensions": [
+      ".merlin"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "ocaml_intf",
+    "extensions": [
+      "mli"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "dune",
+    "extensions": [
+      "dune",
+      "dune-project",
+      "dune-workspace"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "opam",
+    "extensions": [
+      "opam"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "onenote",
+    "extensions": [
+      "one",
+      "onepkg",
+      "onetoc",
+      "onetoc2",
+      "sig"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "opencl",
+    "extensions": [
+      "opencl",
+      "cl",
+      "opencl"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "opentofu",
+    "extensions": [
+      "tofu",
+      "tofu.json",
+      "tofutest.hcl",
+      "tofutest.json"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "org",
+    "extensions": [
+      "org"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "outlook",
+    "extensions": [
+      "pst",
+      "bcmx",
+      "otm",
+      "msg",
+      "oft"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "ovpn",
+    "extensions": [
+      "ovpn",
+      "ovpn"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "oxc",
+    "extensions": [
+      ".oxlintignore",
+      ".oxlintrc.json",
+      ".oxlintrc.jsonc",
+      ".oxfmtrc.json",
+      ".oxfmtrc.jsonc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "package",
+    "extensions": [
+      "package",
+      "pkg"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "paket",
+    "extensions": [
+      "paket.references",
+      "paket.template"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "packship",
+    "extensions": [
+      ".packshiprc",
+      ".packshiprc.json",
+      ".packshiprc.js",
+      ".packshiprc.ts",
+      "packship.config.js",
+      "packship.config.ts",
+      "packship.config.mjs",
+      "packship.config.mts",
+      "packship.config.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "patch",
+    "extensions": [
+      "patch",
+      "patch"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "pcl",
+    "extensions": [
+      "pcl",
+      "pcd"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "pdf",
+    "extensions": [
+      "pdf",
+      "pdf"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "pdm",
+    "extensions": [
+      ".pdm-python"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "peeky",
+    "extensions": [
+      "peeky.config.ts",
+      "peeky.config.js",
+      "peeky.config.mjs"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "photoshop",
+    "extensions": [
+      "photoshop",
+      "psd"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "php",
+    "extensions": [
+      "php1",
+      "php2",
+      "php3",
+      "php4",
+      "php5",
+      "php6",
+      "phps",
+      "phpsa",
+      "phpt",
+      "phtml",
+      "phar"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "phpcsfixer",
+    "extensions": [
+      ".php-cs-fixer.php",
+      ".php-cs-fixer.dist.php",
+      ".php_cs",
+      ".php_cs.dist"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "phpunit",
+    "extensions": [
+      "phpunit",
+      "phpunit.xml",
+      "phpunit.xml.dist"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "phraseapp",
+    "extensions": [
+      ".phraseapp.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "pip",
+    "extensions": [
+      "pipfile",
+      "pipfile.lock"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "pipeline",
+    "extensions": [
+      "pipeline"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "platformio",
+    "extensions": [
+      "platformio.ini"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "plantuml",
+    "extensions": [
+      "pu",
+      "plantuml",
+      "iuml",
+      "puml"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "plsql_package",
+    "extensions": [
+      "plsql_package",
+      "pck"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "plsql_package_body",
+    "extensions": [
+      "plsql_package_body",
+      "pkb"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "plsql_package_header",
+    "extensions": [
+      "pkh"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "plsql_package_spec",
+    "extensions": [
+      "plsql_package_spec",
+      "pks"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "pnpm",
+    "extensions": [
+      ".pnpmfile.cjs",
+      "pnpmfile.js",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "poedit",
+    "extensions": [
+      "po",
+      "mo"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "postcssconfig",
+    "extensions": [
+      ".postcssrc",
+      ".postcssrc.json",
+      ".postcssrc.yaml",
+      ".postcssrc.yml",
+      ".postcssrc.ts",
+      ".postcssrc.cts",
+      ".postcssrc.mts",
+      ".postcssrc.js",
+      ".postcssrc.cjs",
+      ".postcssrc.mjs",
+      "postcss.config.ts",
+      "postcss.config.cts",
+      "postcss.config.mts",
+      "postcss.config.js",
+      "postcss.config.cjs",
+      "postcss.config.mjs"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "postman",
+    "extensions": [
+      "postman_collection.json",
+      "postman_environment.json",
+      "postman_globals.json"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "powerpoint",
+    "extensions": [
+      "pot",
+      "potx",
+      "potm",
+      "pps",
+      "ppsx",
+      "ppsm",
+      "ppt",
+      "pptx",
+      "pptm",
+      "pa",
+      "ppa",
+      "ppam",
+      "sldm",
+      "sldx"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "powershell_psm",
+    "extensions": [
+      "psm1"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "powershell_psd",
+    "extensions": [
+      "psd1"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "powershell_format",
+    "extensions": [
+      "format.ps1xml"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "powershell_types",
+    "extensions": [
+      "types.ps1xml"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "precommit",
+    "extensions": [
+      ".pre-commit-config.yaml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "prettier",
+    "extensions": [
+      ".prettierrc",
+      ".prettierignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "procfile",
+    "extensions": [
+      "procfile"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "prolog",
+    "extensions": [
+      "pro"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "publiccode",
+    "extensions": [
+      "publiccode.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "publisher",
+    "extensions": [
+      "publisher",
+      "pub",
+      "puz"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "pug",
+    "extensions": [
+      ".jade-lintrc",
+      ".pug-lintrc",
+      ".jade-lint.json",
+      ".pug-lintrc.js",
+      ".pug-lintrc.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "purgecss",
+    "extensions": [
+      "purgecss.config.js"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "biome",
+    "extensions": [
+      "biome.json",
+      "biome.jsonc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "pyenv",
+    "extensions": [
+      ".python-version"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "pypi",
+    "extensions": [
+      "pyproject.toml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "pytest",
+    "extensions": [
+      "pytest.ini",
+      ".pytest.ini",
+      "pytest.toml",
+      ".pytest.toml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "pythowo",
+    "extensions": [
+      "pyowo"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "pytyped",
+    "extensions": [
+      "py.typed"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "pyup",
+    "extensions": [
+      ".pyup",
+      ".pyup.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "q",
+    "extensions": [
+      "q",
+      "q"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "qbs",
+    "extensions": [
+      "qbs",
+      "qbs"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "qlikview",
+    "extensions": [
+      "qvd",
+      "qvw"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "qmldir",
+    "extensions": [
+      "qmldir"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "quasar",
+    "extensions": [
+      "quasar.conf.js"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "rails",
+    "extensions": [
+      "rails"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "rake",
+    "extensions": [
+      "rake",
+      "rake"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "rake",
+    "extensions": [
+      "Rakefile"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "ra_syntax_tree",
+    "extensions": [
+      "rast"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "reacttemplate",
+    "extensions": [
+      "reacttemplate",
+      "rt"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "registry",
+    "extensions": [
+      "registry",
+      "reg"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "rego",
+    "extensions": [
+      "rego"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "rehype",
+    "extensions": [
+      ".rehyperc",
+      ".rehypeignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "remark",
+    "extensions": [
+      ".remarkrc",
+      ".remarkignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "renovate",
+    "extensions": [
+      ".renovaterc",
+      ".renovaterc.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "replit",
+    "extensions": [
+      ".replit",
+      "replit.nix"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "retext",
+    "extensions": [
+      ".retextrc",
+      ".retextignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "ripple",
+    "extensions": [
+      "ripple"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "rnc",
+    "extensions": [
+      "rnc"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "robots",
+    "extensions": [
+      "robots.txt"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "ron",
+    "extensions": [
+      "ron"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "rome",
+    "extensions": [
+      "rome.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "rproj",
+    "extensions": [
+      "rproj",
+      "rproj"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "rspec",
+    "extensions": [
+      ".rspec"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "rss",
+    "extensions": [
+      "rss"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "rubocop",
+    "extensions": [
+      ".rubocop.yml",
+      ".rubocop_todo.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "ruby",
+    "extensions": [
+      "rbs"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "ruby",
+    "extensions": [
+      ".ruby-version"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "rust_toolchain",
+    "extensions": [
+      "rust-toolchain",
+      "rust-toolchain.toml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "s-lang",
+    "extensions": [
+      ".slshrc",
+      ".isisrc",
+      ".jedrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "safetensors",
+    "extensions": [
+      "safetensors"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "sails",
+    "extensions": [
+      ".sailsrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "saltstack",
+    "extensions": [
+      "saltstack",
+      "sls"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "sapphire_framework_cli",
+    "extensions": [
+      ".sapphirerc.json",
+      ".sapphirerc.yml",
+      ".sapphirerc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "sass",
+    "extensions": [
+      "sass"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "scss",
+    "extensions": [
+      "scssm"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "sentry",
+    "extensions": [
+      ".sentryclirc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "sequelize",
+    "extensions": [
+      ".sequelizerc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "shaderlab",
+    "extensions": [
+      "unity"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "shadcn",
+    "extensions": [
+      "components.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "shell",
+    "extensions": [
+      "fish"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "shellcheck",
+    "extensions": [
+      ".shellcheckrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "shuttle",
+    "extensions": [
+      "Shuttle.toml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "siyuan",
+    "extensions": [
+      "sy"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "sketch",
+    "extensions": [
+      "sketch",
+      "sketch"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "sln",
+    "extensions": [
+      "sln",
+      "slnx",
+      "slnf"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "sitemap",
+    "extensions": [
+      "sitemap.xml",
+      "sitemap.rss",
+      "sitemap.txt",
+      "sitemap.atom"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "skipper",
+    "extensions": [
+      "eskip"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "smithery",
+    "extensions": [
+      "smithery.yaml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "snapcraft",
+    "extensions": [
+      "snapcraft.yaml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "snaplet",
+    "extensions": [
+      "snaplet.config.js",
+      "snaplet.config.ts"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "snyk",
+    "extensions": [
+      ".snyk"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "solidarity",
+    "extensions": [
+      ".solidarity",
+      ".solidarity.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "source",
+    "extensions": [
+      "source"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "spacengine",
+    "extensions": [
+      "spe"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "spin",
+    "extensions": [
+      "spin.toml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "sqlite",
+    "extensions": [
+      "sqlite",
+      "sqlite3",
+      "db3"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "sss",
+    "extensions": [
+      "sss",
+      "sss"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "stackblitz",
+    "extensions": [
+      ".stackblitzrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "stata",
+    "extensions": [
+      "dta"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "style",
+    "extensions": [
+      "style"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "stylelint",
+    "extensions": [
+      ".stylelintrc",
+      ".stylelintignore",
+      ".stylelintcache"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "stylish_haskell",
+    "extensions": [
+      ".stylish-haskell.yaml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "storyboard",
+    "extensions": [
+      "storyboard",
+      "storyboard"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "sublime",
+    "extensions": [
+      "sublime-project"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "subversion",
+    "extensions": [
+      ".svnignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "svelteconfig",
+    "extensions": [
+      "svelte.config.js",
+      "svelte.config.ts"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "svg",
+    "extensions": [
+      "svg"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "swc",
+    "extensions": [
+      ".swcrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "swift",
+    "extensions": [
+      "package.pins"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "symfony",
+    "extensions": [
+      "symfony.lock"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "syncpack",
+    "extensions": [
+      ".syncpackrc",
+      ".syncpackrc.json",
+      ".syncpackrc.yaml",
+      ".syncpackrc.yml",
+      ".syncpackrc.js",
+      ".syncpackrc.cjs",
+      "syncpack.config.js",
+      "syncpack.config.cjs"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "taplo",
+    "extensions": [
+      ".taplo.toml",
+      "taplo.toml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "tauri",
+    "extensions": [
+      "tauri.conf.json",
+      ".taurignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "templ",
+    "extensions": [
+      "templ"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "tt",
+    "extensions": [
+      "tt2"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "tcl",
+    "extensions": [
+      "tcl",
+      "tcl",
+      "exp"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "terraform",
+    "extensions": [
+      "tfstate",
+      "tfvars",
+      "tf",
+      "tf.json"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "tm",
+    "extensions": [
+      "tm",
+      "tm.hcl"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "test",
+    "extensions": [
+      "test",
+      "tst"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "testcafe",
+    "extensions": [
+      ".testcaferc.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "testplane",
+    "extensions": [
+      "testplane.ts",
+      "testplane.js",
+      "testplane.cts",
+      "testplane.cjs",
+      "testplane.tsx",
+      "testplane.jsx"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "tex",
+    "extensions": [
+      "texi",
+      "tikz"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "text",
+    "extensions": [
+      "csv",
+      "tsv"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "tiltfile",
+    "extensions": [
+      ".tiltignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "tfs",
+    "extensions": [
+      ".tfignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "tmux",
+    "extensions": [
+      ".tmux.conf"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "todo",
+    "extensions": [
+      "todo",
+      "todo"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "tox",
+    "extensions": [
+      "tox.ini"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "travis",
+    "extensions": [
+      ".travis.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "tree",
+    "extensions": [
+      "tree"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "tres",
+    "extensions": [
+      "tres"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "trunk",
+    "extensions": [
+      "trunk.yaml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "tsbuildinfo",
+    "extensions": [
+      "tsbuildinfo"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "tscn",
+    "extensions": [
+      "tscn"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "tsdoc",
+    "extensions": [
+      "tsdoc.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "tslint",
+    "extensions": [
+      "tslint.json",
+      "tslint.yaml",
+      "tslint.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "typescriptdef",
+    "extensions": [
+      "d.ts",
+      "d.cts",
+      "d.mts"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "uiua",
+    "extensions": [
+      "ua"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "unibeautify",
+    "extensions": [
+      ".unibeautifyrc",
+      "unibeautify.config.js"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "unison",
+    "extensions": [
+      "u"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "unlicense",
+    "extensions": [
+      "unlicense",
+      "unlicence",
+      "UNLICENSE",
+      "UNLICENCE"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "uv",
+    "extensions": [
+      "uv.lock"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "vagrant",
+    "extensions": [
+      "vagrantfile"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "vala",
+    "extensions": [
+      "vala",
+      "vala"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "vanilla_extract",
+    "extensions": [
+      "vanilla_extract",
+      "css.ts"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "vapi",
+    "extensions": [
+      "vapi",
+      "vapi"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "vash",
+    "extensions": [
+      "vash",
+      "vash"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "vapor",
+    "extensions": [
+      "vapor.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "vbhtml",
+    "extensions": [
+      "vbhtml",
+      "vbhtml"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "vbproj",
+    "extensions": [
+      "vbproj",
+      "vbproj"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "vcxproj",
+    "extensions": [
+      "vcxproj",
+      "vcxproj"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "vento",
+    "extensions": [
+      "vto",
+      "vento"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "video",
+    "extensions": [
+      "3g2",
+      "3gp",
+      "asf",
+      "amv",
+      "avi",
+      "divx",
+      "qt",
+      "f4a",
+      "f4b",
+      "f4p",
+      "f4v",
+      "flv",
+      "m2v",
+      "m4v",
+      "mkv",
+      "mk3d",
+      "mov",
+      "mp2",
+      "mp4",
+      "mpe",
+      "mpeg",
+      "mpeg2",
+      "mpg",
+      "mpv",
+      "nsv",
+      "ogv",
+      "rm",
+      "rmvb",
+      "svi",
+      "vob",
+      "webm",
+      "wmv"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "view",
+    "extensions": [
+      "view"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "vim",
+    "extensions": [
+      ".vimrc",
+      ".gvimrc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "vscode",
+    "extensions": [
+      ".vscodeignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "vscode",
+    "extensions": [
+      "code-snippets",
+      "code-workspace"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "vsix",
+    "extensions": [
+      "vsix",
+      "vsix"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "vsixmanifest",
+    "extensions": [
+      "vsixmanifest"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "vueconfig",
+    "extensions": [
+      ".vuerc",
+      "vue.config.js",
+      "vue.config.cjs",
+      "vue.config.mjs"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "vyper",
+    "extensions": [
+      "vyi"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "wally",
+    "extensions": [
+      "wally.toml",
+      "wally.lock"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "watchmanconfig",
+    "extensions": [
+      ".watchmanconfig"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "wasm",
+    "extensions": [
+      "wasm"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "weblate",
+    "extensions": [
+      ".weblate",
+      ".weblate.ini",
+      "weblate",
+      "weblate.ini"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "wercker",
+    "extensions": [
+      "wercker.yml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "wikitext",
+    "extensions": [
+      "wikitext"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "windi",
+    "extensions": [
+      "windi.config.ts",
+      "windi.config.js"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "wit",
+    "extensions": [
+      "wit"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "word",
+    "extensions": [
+      "doc",
+      "docx",
+      "docm",
+      "dot",
+      "dotx",
+      "dotm",
+      "wll"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "wpml",
+    "extensions": [
+      "wpml-config.xml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "wxml",
+    "extensions": [
+      "wxml",
+      "wxml"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "wxss",
+    "extensions": [
+      "wxss",
+      "wxss"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "xcode",
+    "extensions": [
+      "xcode",
+      "xcodeproj"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "xfl",
+    "extensions": [
+      "xfl"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "xib",
+    "extensions": [
+      "xib",
+      "xib"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "xliff",
+    "extensions": [
+      "xliff",
+      "xliff",
+      "xlf"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "xml",
+    "extensions": [
+      "pex",
+      "tmlanguage"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "xaml",
+    "extensions": [
+      "xaml",
+      "axaml"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "xo",
+    "extensions": [
+      ".xo-config"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "xorg",
+    "extensions": [
+      ".xcompose"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "vvvvvv",
+    "extensions": [
+      "vvvvvv"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "yamllint",
+    "extensions": [
+      ".yamllint"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "yandex",
+    "extensions": [
+      ".yaspellerrc",
+      ".yaspeller.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "yarn",
+    "extensions": [
+      "yarn.lock",
+      ".yarnrc",
+      ".yarnrc.yml",
+      ".yarnclean",
+      ".yarn-integrity",
+      ".yarn-metadata.json",
+      ".yarn-state.yml",
+      ".yarnignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "yeoman",
+    "extensions": [
+      ".yo-rc.json"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "vercel",
+    "extensions": [
+      "now.json",
+      ".nowignore",
+      "vercel.json",
+      ".vercelignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "liara",
+    "extensions": [
+      "liara.json",
+      ".liaraignore"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "turbo",
+    "extensions": [
+      "turbo.json",
+      "turbo.jsonc",
+      "microfrontends.json",
+      "microfrontends.jsonc"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "doppler",
+    "extensions": [
+      "doppler.yaml",
+      "doppler-template.yaml"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "zip",
+    "extensions": [
+      "zip",
+      "rar",
+      "7z",
+      "tar",
+      "tgz",
+      "bz",
+      "gz",
+      "bzip2",
+      "xz",
+      "bz2",
+      "whl",
+      "zipx",
+      "br"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "knip",
+    "extensions": [
+      "knip.json",
+      "knip.jsonc",
+      ".knip.json",
+      ".knip.jsonc",
+      "knip.ts",
+      "knip.js",
+      "knip.config.ts",
+      "knip.config.js"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "cmake",
+    "extensions": [
+      "cmakelists.txt"
+    ],
+    "filename": true
+  },
+  {
+    "icon": "cmake",
+    "extensions": [
+      "cmake",
+      "cmake-format"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "cpp",
+    "extensions": [
+      "cpp",
+      "cc",
+      "cxx",
+      "c++",
+      "cp"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "cppheader",
+    "extensions": [
+      "h",
+      "hpp",
+      "hxx",
+      "hh"
+    ],
+    "filename": false
+  },
+  {
+    "icon": "qt",
+    "extensions": [
+      "qrc"
+    ],
+    "filename": false
+  }
+]

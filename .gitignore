@@ -1,39 +1,34 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-CMakeLists.txt.user
-
-build/
-
-!lib/qtcreator/*.lib
-!lib/qtcreator/*.dll
+*.user
+*.user.*
+build*
+/SAKCustomConfigure.pri
+out
+.vscode
+/.cache
+/.idea
+.vscode
+3rd
+thirdparty
+/.fleet
+src/private
+cmake-build-debug
+ThirdParty
+cmake-build*
+.vs
+CMakeSettings.json
+Private
+private
+CMakePresets.json
+CMakeUserPresets.json
+compile_commands.json
+*.aps
+libs
+bin
+xapps/xprivate
+.DS_Store
+./xprivate
+.VSCodeCounter
+.qmlls.ini
+private.cmake
+private.txt
+/tools

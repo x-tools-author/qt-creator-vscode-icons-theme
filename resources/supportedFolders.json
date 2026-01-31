@@ -1,0 +1,1385 @@
+[
+  {
+    "icon": "android",
+    "folders": [
+      "android",
+      "android"
+    ]
+  },
+  {
+    "icon": "angular",
+    "folders": [
+      "angular",
+      ".angular"
+    ]
+  },
+  {
+    "icon": "apache",
+    "folders": [
+      "apache",
+      "apache2",
+      "httpd"
+    ]
+  },
+  {
+    "icon": "api",
+    "folders": [
+      "api",
+      ".api",
+      "apis",
+      ".apis"
+    ]
+  },
+  {
+    "icon": "app",
+    "folders": [
+      "app",
+      "apps",
+      ".app",
+      "application",
+      "applications"
+    ]
+  },
+  {
+    "icon": "arangodb",
+    "folders": [
+      "arangodb",
+      "arango"
+    ]
+  },
+  {
+    "icon": "asset",
+    "folders": [
+      "assets",
+      ".assets"
+    ]
+  },
+  {
+    "icon": "astro",
+    "folders": [
+      "astro",
+      ".astro"
+    ]
+  },
+  {
+    "icon": "aurelia",
+    "folders": [
+      "aurelia_project"
+    ]
+  },
+  {
+    "icon": "audio",
+    "folders": [
+      "audio",
+      ".audio",
+      "audios",
+      ".audios",
+      "sound",
+      ".sound",
+      "sounds",
+      ".sounds"
+    ]
+  },
+  {
+    "icon": "aws",
+    "folders": [
+      "aws",
+      "aws",
+      ".aws"
+    ]
+  },
+  {
+    "icon": "azure",
+    "folders": [
+      "azure",
+      "azure",
+      ".azure"
+    ]
+  },
+  {
+    "icon": "azurepipelines",
+    "folders": [
+      "azure-pipelines",
+      ".azure-pipelines"
+    ]
+  },
+  {
+    "icon": "binary",
+    "folders": [
+      "binary",
+      "bin",
+      ".bin"
+    ]
+  },
+  {
+    "icon": "bloc",
+    "folders": [
+      "bloc",
+      "blocs",
+      "bloc"
+    ]
+  },
+  {
+    "icon": "blueprint",
+    "folders": [
+      "blueprint",
+      ".blueprint",
+      "blueprints",
+      ".blueprints"
+    ]
+  },
+  {
+    "icon": "bot",
+    "folders": [
+      "bot",
+      "bot",
+      ".bot"
+    ]
+  },
+  {
+    "icon": "bower",
+    "folders": [
+      "bower",
+      "bower_components"
+    ]
+  },
+  {
+    "icon": "buildkite",
+    "folders": [
+      "buildkite",
+      ".buildkite"
+    ]
+  },
+  {
+    "icon": "cake",
+    "folders": [
+      "cake",
+      "cake",
+      ".cake"
+    ]
+  },
+  {
+    "icon": "cargo",
+    "folders": [
+      "cargo",
+      ".cargo",
+      "crates"
+    ]
+  },
+  {
+    "icon": "certificate",
+    "folders": [
+      "certificates",
+      ".certificates",
+      "certs",
+      "certs."
+    ]
+  },
+  {
+    "icon": "changesets",
+    "folders": [
+      "changesets",
+      ".changeset"
+    ]
+  },
+  {
+    "icon": "chef",
+    "folders": [
+      "chef",
+      "chef",
+      ".chef"
+    ]
+  },
+  {
+    "icon": "circleci",
+    "folders": [
+      "circleci",
+      ".circleci"
+    ]
+  },
+  {
+    "icon": "claude",
+    "folders": [
+      "claude",
+      ".claude"
+    ]
+  },
+  {
+    "icon": "cloudflare",
+    "folders": [
+      ".cloudflare",
+      "cloudflare"
+    ]
+  },
+  {
+    "icon": "controller",
+    "folders": [
+      "__controller__",
+      "__controllers__",
+      "controller",
+      "controllers",
+      ".controllers",
+      "__handler__",
+      "__handlers__",
+      "handler",
+      ".handler",
+      "handlers",
+      ".handlers"
+    ]
+  },
+  {
+    "icon": "component",
+    "folders": [
+      "component",
+      "components",
+      ".components",
+      "gui",
+      "src-ui",
+      "ui",
+      "widgets"
+    ]
+  },
+  {
+    "icon": "composer",
+    "folders": [
+      "composer",
+      ".composer"
+    ]
+  },
+  {
+    "icon": "cli",
+    "folders": [
+      "cli",
+      "cmd",
+      "command",
+      "commands",
+      "commandline",
+      "console"
+    ]
+  },
+  {
+    "icon": "client",
+    "folders": [
+      "client",
+      "clients"
+    ]
+  },
+  {
+    "icon": "cmake",
+    "folders": [
+      "cmake",
+      ".cmake",
+      "cmake"
+    ]
+  },
+  {
+    "icon": "common",
+    "folders": [
+      "common"
+    ]
+  },
+  {
+    "icon": "config",
+    "folders": [
+      "conf",
+      ".conf",
+      "config",
+      ".config",
+      "configs",
+      ".configs",
+      "configuration",
+      ".configuration",
+      "configurations",
+      ".configurations",
+      "setting",
+      ".setting",
+      "settings",
+      ".settings",
+      "ini",
+      ".ini",
+      "initializers",
+      ".initializers"
+    ]
+  },
+  {
+    "icon": "coverage",
+    "folders": [
+      "coverage",
+      "coverage"
+    ]
+  },
+  {
+    "icon": "css",
+    "folders": [
+      "css",
+      "_css"
+    ]
+  },
+  {
+    "icon": "cubit",
+    "folders": [
+      "cubit",
+      "cubits",
+      "cubit"
+    ]
+  },
+  {
+    "icon": "cursor",
+    "folders": [
+      ".cursor"
+    ]
+  },
+  {
+    "icon": "cypress",
+    "folders": [
+      "cypress"
+    ]
+  },
+  {
+    "icon": "dapr",
+    "folders": [
+      ".dapr",
+      "dapr"
+    ]
+  },
+  {
+    "icon": "dart",
+    "folders": [
+      "dart",
+      ".dart_tool"
+    ]
+  },
+  {
+    "icon": "datadog",
+    "folders": [
+      "datadog",
+      ".datadog"
+    ]
+  },
+  {
+    "icon": "db",
+    "folders": [
+      "db",
+      "database",
+      "sql",
+      "data",
+      "repo",
+      "repository",
+      "repositories",
+      "store",
+      "stores"
+    ]
+  },
+  {
+    "icon": "debian",
+    "folders": [
+      "debian",
+      "deb"
+    ]
+  },
+  {
+    "icon": "dependabot",
+    "folders": [
+      ".dependabot"
+    ]
+  },
+  {
+    "icon": "devcontainer",
+    "folders": [
+      ".devcontainer"
+    ]
+  },
+  {
+    "icon": "dist",
+    "folders": [
+      "dist",
+      ".dist",
+      "dists",
+      "out",
+      "outs",
+      "export",
+      "exports",
+      "build",
+      ".build",
+      "builds",
+      "release",
+      "releases",
+      "target",
+      "targets"
+    ]
+  },
+  {
+    "icon": "docker",
+    "folders": [
+      "docker",
+      ".docker"
+    ]
+  },
+  {
+    "icon": "docs",
+    "folders": [
+      "docs",
+      "doc",
+      "document",
+      "documents"
+    ]
+  },
+  {
+    "icon": "e2e",
+    "folders": [
+      "e2e",
+      "e2e"
+    ]
+  },
+  {
+    "icon": "elasticbeanstalk",
+    "folders": [
+      ".elasticbeanstalk",
+      ".ebextensions"
+    ]
+  },
+  {
+    "icon": "electron",
+    "folders": [
+      "electron"
+    ]
+  },
+  {
+    "icon": "expo",
+    "folders": [
+      ".expo",
+      ".expo-shared"
+    ]
+  },
+  {
+    "icon": "favicon",
+    "folders": [
+      "favicon",
+      "favicons"
+    ]
+  },
+  {
+    "icon": "frontcommerce",
+    "folders": [
+      ".front-commerce"
+    ]
+  },
+  {
+    "icon": "flow",
+    "folders": [
+      "flow",
+      "flow-typed"
+    ]
+  },
+  {
+    "icon": "flutter",
+    "folders": [
+      "flutter",
+      "Flutter"
+    ]
+  },
+  {
+    "icon": "fonts",
+    "folders": [
+      "fonts",
+      "font",
+      "fnt",
+      "webfonts"
+    ]
+  },
+  {
+    "icon": "gcp",
+    "folders": [
+      "gcp",
+      "gcp",
+      ".gcp"
+    ]
+  },
+  {
+    "icon": "gemini",
+    "folders": [
+      "gemini",
+      ".gemini"
+    ]
+  },
+  {
+    "icon": "git",
+    "folders": [
+      ".git",
+      "submodules",
+      ".submodules"
+    ]
+  },
+  {
+    "icon": "github",
+    "folders": [
+      "github",
+      ".github"
+    ]
+  },
+  {
+    "icon": "gitlab",
+    "folders": [
+      "gitlab",
+      ".gitlab"
+    ]
+  },
+  {
+    "icon": "godot",
+    "folders": [
+      "godot",
+      "godot",
+      ".godot"
+    ]
+  },
+  {
+    "icon": "gradle",
+    "folders": [
+      "gradle",
+      ".gradle"
+    ]
+  },
+  {
+    "icon": "graphql",
+    "folders": [
+      "graphql",
+      "graphql"
+    ]
+  },
+  {
+    "icon": "grunt",
+    "folders": [
+      "grunt",
+      "grunt"
+    ]
+  },
+  {
+    "icon": "gulp",
+    "folders": [
+      "gulp",
+      "gulpfile.js",
+      "gulpfile.coffee",
+      "gulpfile.ts",
+      "gulpfile.babel.js",
+      "gulpfile.babel.coffee",
+      "gulpfile.babel.ts"
+    ]
+  },
+  {
+    "icon": "haxelib",
+    "folders": [
+      ".haxelib",
+      "haxe_libraries"
+    ]
+  },
+  {
+    "icon": "helper",
+    "folders": [
+      "helper",
+      ".helper",
+      "helpers",
+      ".helpers"
+    ]
+  },
+  {
+    "icon": "histoire",
+    "folders": [
+      ".histoire"
+    ]
+  },
+  {
+    "icon": "hook",
+    "folders": [
+      "hook",
+      ".hook",
+      "hooks",
+      ".hooks"
+    ]
+  },
+  {
+    "icon": "husky",
+    "folders": [
+      ".husky"
+    ]
+  },
+  {
+    "icon": "idea",
+    "folders": [
+      "idea",
+      ".idea"
+    ]
+  },
+  {
+    "icon": "images",
+    "folders": [
+      ".fig",
+      ".figs",
+      "images",
+      "image",
+      ".img",
+      "img",
+      ".imgs",
+      "imgs",
+      "icons",
+      "icon",
+      "ico",
+      "screenshot",
+      "screenshots",
+      "svg",
+      "texture",
+      "textures"
+    ]
+  },
+  {
+    "icon": "include",
+    "folders": [
+      "include",
+      "includes",
+      "incl",
+      "inc",
+      ".include",
+      ".includes",
+      ".incl",
+      ".inc",
+      "_include",
+      "_includes",
+      "_incl",
+      "_inc"
+    ]
+  },
+  {
+    "icon": "interfaces",
+    "folders": [
+      "interface",
+      "interfaces"
+    ]
+  },
+  {
+    "icon": "ios",
+    "folders": [
+      "ios",
+      "ios"
+    ]
+  },
+  {
+    "icon": "js",
+    "folders": [
+      "js",
+      "js"
+    ]
+  },
+  {
+    "icon": "json",
+    "folders": [
+      "json",
+      "json"
+    ]
+  },
+  {
+    "icon": "junie",
+    "folders": [
+      "junie",
+      ".junie"
+    ]
+  },
+  {
+    "icon": "kotlin",
+    "folders": [
+      "kotlin",
+      "Kotlin",
+      ".kotlin"
+    ]
+  },
+  {
+    "icon": "kubernetes",
+    "folders": [
+      "kubernetes",
+      "k8s",
+      "kube",
+      "kuber",
+      ".kubernetes",
+      ".k8s",
+      ".kube",
+      ".kuber"
+    ]
+  },
+  {
+    "icon": "less",
+    "folders": [
+      "less",
+      "less",
+      "_less"
+    ]
+  },
+  {
+    "icon": "library",
+    "folders": [
+      "lib",
+      "libs",
+      ".lib",
+      ".libs",
+      "__lib__",
+      "__libs__",
+      "library",
+      "libraries"
+    ]
+  },
+  {
+    "icon": "linux",
+    "folders": [
+      "linux",
+      "linux"
+    ]
+  },
+  {
+    "icon": "locale",
+    "folders": [
+      "lang",
+      "language",
+      "languages",
+      "locale",
+      "locales",
+      "_locale",
+      "_locales",
+      "internationalization",
+      "globalization",
+      "localization",
+      "i18n",
+      "g11n",
+      "l10n"
+    ]
+  },
+  {
+    "icon": "log",
+    "folders": [
+      "log",
+      "log",
+      "logs"
+    ]
+  },
+  {
+    "icon": "macos",
+    "folders": [
+      "macos",
+      "macos",
+      "darwin"
+    ]
+  },
+  {
+    "icon": "mariadb",
+    "folders": [
+      "mariadb",
+      "maria"
+    ]
+  },
+  {
+    "icon": "maven",
+    "folders": [
+      "maven",
+      ".mvn"
+    ]
+  },
+  {
+    "icon": "mediawiki",
+    "folders": [
+      "mediawiki"
+    ]
+  },
+  {
+    "icon": "memcached",
+    "folders": [
+      "memcached",
+      ".memcached"
+    ]
+  },
+  {
+    "icon": "meteor",
+    "folders": [
+      ".meteor"
+    ]
+  },
+  {
+    "icon": "middleware",
+    "folders": [
+      "middleware",
+      "middlewares"
+    ]
+  },
+  {
+    "icon": "mjml",
+    "folders": [
+      "mjml",
+      "mjml",
+      ".mjml"
+    ]
+  },
+  {
+    "icon": "minecraft",
+    "folders": [
+      ".minecraft"
+    ]
+  },
+  {
+    "icon": "minikube",
+    "folders": [
+      "minikube",
+      "minik8s",
+      "minikuber"
+    ]
+  },
+  {
+    "icon": "mojo",
+    "folders": [
+      "mojo"
+    ]
+  },
+  {
+    "icon": "mock",
+    "folders": [
+      "mocks",
+      ".mocks",
+      "__mocks__"
+    ]
+  },
+  {
+    "icon": "model",
+    "folders": [
+      "model",
+      ".model",
+      "models",
+      ".models",
+      "entities",
+      ".entities"
+    ]
+  },
+  {
+    "icon": "module",
+    "folders": [
+      "modules"
+    ]
+  },
+  {
+    "icon": "mongodb",
+    "folders": [
+      "mongodb",
+      "mongo"
+    ]
+  },
+  {
+    "icon": "mypy",
+    "folders": [
+      ".mypy_cache"
+    ]
+  },
+  {
+    "icon": "mysql",
+    "folders": [
+      "mysqldb",
+      "mysql"
+    ]
+  },
+  {
+    "icon": "netlify",
+    "folders": [
+      "netlify"
+    ]
+  },
+  {
+    "icon": "next",
+    "folders": [
+      "next",
+      ".next"
+    ]
+  },
+  {
+    "icon": "nginx",
+    "folders": [
+      "nginx",
+      "nginx",
+      "conf.d"
+    ]
+  },
+  {
+    "icon": "nix",
+    "folders": [
+      ".niv",
+      ".nix",
+      "nix",
+      "niv"
+    ]
+  },
+  {
+    "icon": "node",
+    "folders": [
+      "node_modules"
+    ]
+  },
+  {
+    "icon": "notebooks",
+    "folders": [
+      "notebooks",
+      "notebook"
+    ]
+  },
+  {
+    "icon": "notification",
+    "folders": [
+      "notification",
+      "notifications",
+      "event",
+      "events"
+    ]
+  },
+  {
+    "icon": "nuget",
+    "folders": [
+      "nuget",
+      ".nuget"
+    ]
+  },
+  {
+    "icon": "package",
+    "folders": [
+      "package",
+      "packages",
+      ".package",
+      ".packages",
+      "pkg"
+    ]
+  },
+  {
+    "icon": "paket",
+    "folders": [
+      "paket",
+      ".paket"
+    ]
+  },
+  {
+    "icon": "php",
+    "folders": [
+      "php",
+      "php"
+    ]
+  },
+  {
+    "icon": "platformio",
+    "folders": [
+      ".pio",
+      ".pioenvs"
+    ]
+  },
+  {
+    "icon": "plugin",
+    "folders": [
+      "plugin",
+      ".plugin",
+      "plugins",
+      ".plugins",
+      "extension",
+      ".extension",
+      "extensions",
+      ".extensions"
+    ]
+  },
+  {
+    "icon": "prisma",
+    "folders": [
+      "prisma",
+      "prisma"
+    ]
+  },
+  {
+    "icon": "private",
+    "folders": [
+      "private",
+      ".private"
+    ]
+  },
+  {
+    "icon": "public",
+    "folders": [
+      "public",
+      ".public"
+    ]
+  },
+  {
+    "icon": "pytest",
+    "folders": [
+      ".pytest_cache"
+    ]
+  },
+  {
+    "icon": "python",
+    "folders": [
+      ".venv",
+      ".virtualenv",
+      "__pycache__"
+    ]
+  },
+  {
+    "icon": "vercel",
+    "folders": [
+      ".vercel"
+    ]
+  },
+  {
+    "icon": "vitepress",
+    "folders": [
+      ".vitepress"
+    ]
+  },
+  {
+    "icon": "redis",
+    "folders": [
+      "redis",
+      "redis"
+    ]
+  },
+  {
+    "icon": "ravendb",
+    "folders": [
+      "ravendb",
+      "ravendb"
+    ]
+  },
+  {
+    "icon": "route",
+    "folders": [
+      "route",
+      "routes",
+      "_route",
+      "_routes",
+      "router",
+      "routers"
+    ]
+  },
+  {
+    "icon": "redux",
+    "folders": [
+      "redux"
+    ]
+  },
+  {
+    "icon": "nuxt",
+    "folders": [
+      "nuxt",
+      ".nuxt"
+    ]
+  },
+  {
+    "icon": "sass",
+    "folders": [
+      "sass",
+      "scss",
+      "_sass",
+      "_scss"
+    ]
+  },
+  {
+    "icon": "script",
+    "folders": [
+      "script",
+      "scripts"
+    ]
+  },
+  {
+    "icon": "seedkit",
+    "folders": [
+      "seedkit",
+      ".seedkit"
+    ]
+  },
+  {
+    "icon": "server",
+    "folders": [
+      "server",
+      "server"
+    ]
+  },
+  {
+    "icon": "services",
+    "folders": [
+      "service",
+      "services"
+    ]
+  },
+  {
+    "icon": "shared",
+    "folders": [
+      "share",
+      "shared",
+      ".share",
+      ".shared",
+      "__shared__",
+      "__share__"
+    ]
+  },
+  {
+    "icon": "snaplet",
+    "folders": [
+      ".snaplet"
+    ]
+  },
+  {
+    "icon": "spin",
+    "folders": [
+      ".spin"
+    ]
+  },
+  {
+    "icon": "src",
+    "folders": [
+      "src",
+      "source",
+      "sources",
+      "__src__"
+    ]
+  },
+  {
+    "icon": "sso",
+    "folders": [
+      "sso"
+    ]
+  },
+  {
+    "icon": "story",
+    "folders": [
+      "story",
+      "stories",
+      "__stories__",
+      ".storybook"
+    ]
+  },
+  {
+    "icon": "style",
+    "folders": [
+      "style",
+      "style",
+      "styles"
+    ]
+  },
+  {
+    "icon": "supabase",
+    "folders": [
+      "supabase"
+    ]
+  },
+  {
+    "icon": "svelte",
+    "folders": [
+      "svelte",
+      ".svelte-kit"
+    ]
+  },
+  {
+    "icon": "tauri",
+    "folders": [
+      "tauri",
+      "src-tauri"
+    ]
+  },
+  {
+    "icon": "test",
+    "folders": [
+      "tests",
+      ".tests",
+      "test",
+      ".test",
+      "__tests__",
+      "__test__",
+      "spec",
+      ".spec",
+      "specs",
+      ".specs",
+      "integration"
+    ]
+  },
+  {
+    "icon": "temp",
+    "folders": [
+      "temp",
+      ".temp",
+      "tmp",
+      ".tmp"
+    ]
+  },
+  {
+    "icon": "template",
+    "folders": [
+      "template",
+      ".template",
+      "templates",
+      ".templates"
+    ]
+  },
+  {
+    "icon": "theme",
+    "folders": [
+      "theme",
+      "theme",
+      "themes"
+    ]
+  },
+  {
+    "icon": "travis",
+    "folders": [
+      "travis",
+      ".travis"
+    ]
+  },
+  {
+    "icon": "tools",
+    "folders": [
+      "tool",
+      "tools",
+      ".tools",
+      "util",
+      "utils",
+      "utilities",
+      "tooling"
+    ]
+  },
+  {
+    "icon": "trunk",
+    "folders": [
+      ".trunk"
+    ]
+  },
+  {
+    "icon": "turbo",
+    "folders": [
+      ".turbo"
+    ]
+  },
+  {
+    "icon": "typescript",
+    "folders": [
+      "typescript",
+      "ts"
+    ]
+  },
+  {
+    "icon": "typings",
+    "folders": [
+      "typings",
+      "types",
+      "@types"
+    ]
+  },
+  {
+    "icon": "vagrant",
+    "folders": [
+      "vagrant",
+      ".vagrant"
+    ]
+  },
+  {
+    "icon": "video",
+    "folders": [
+      "video",
+      ".video",
+      "videos",
+      ".videos"
+    ]
+  },
+  {
+    "icon": "view",
+    "folders": [
+      "html",
+      "view",
+      "views",
+      "layout",
+      "layouts",
+      "page",
+      "pages",
+      "_view",
+      "_views",
+      "_layout",
+      "_layouts",
+      "_page",
+      "_pages"
+    ]
+  },
+  {
+    "icon": "vs",
+    "folders": [
+      "vs",
+      ".vs"
+    ]
+  },
+  {
+    "icon": "vscode",
+    "folders": [
+      ".vscode",
+      "vscode"
+    ]
+  },
+  {
+    "icon": "vscode_test",
+    "folders": [
+      ".vscode-test"
+    ]
+  },
+  {
+    "icon": "wasm",
+    "folders": [
+      "wasm",
+      "WASM",
+      "webassembly",
+      "WebAssembly"
+    ]
+  },
+  {
+    "icon": "wit",
+    "folders": [
+      "wit"
+    ]
+  },
+  {
+    "icon": "webpack",
+    "folders": [
+      "webpack",
+      ".webpack"
+    ]
+  },
+  {
+    "icon": "windows",
+    "folders": [
+      "windows",
+      "win32"
+    ]
+  },
+  {
+    "icon": "windsurf",
+    "folders": [
+      ".windsurf"
+    ]
+  },
+  {
+    "icon": "www",
+    "folders": [
+      ".web",
+      "www",
+      "wwwroot",
+      "web"
+    ]
+  },
+  {
+    "icon": "yarn",
+    "folders": [
+      ".yarn"
+    ]
+  },
+  {
+    "icon": "zed",
+    "folders": [
+      ".zed"
+    ]
+  },
+  {
+    "icon": "qt",
+    "folders": [
+      ".qtcreator"
+    ]
+  }
+]
