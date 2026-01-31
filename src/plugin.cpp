@@ -154,8 +154,8 @@ static QIcon getFolderIcon(const QString& folderName)
     QString iconFile = VS_CODE_ICON_ROOT + QString("/folder_type_%1.svg").arg(iconName);
     if (QFile::exists(iconFile)) {
         QIcon folderIcon(iconFile);
-        QString openedIconFile = VS_CODE_ICON_ROOT
-                                 + QString("/folder_type_%1_opened.svg").arg(iconName);
+        QString openedIconFile = VS_CODE_ICON_ROOT;
+        openedIconFile += QString("/folder_type_%1_opened.svg").arg(iconName);
         if (QFile::exists(openedIconFile)) {
             folderIcon.addFile(openedIconFile, QSize(), QIcon::Normal, QIcon::On);
         }
