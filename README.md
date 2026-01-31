@@ -3,15 +3,14 @@
 Custom icon theme for [Qt Creator](https://www.qt.io/product/development-tools).
 Based upon [vscode-icons](https://github.com/vscode-icons/vscode-icons).
 
-# Screenshots
+## Screenshots
 
-![Screenshot-macOS](https://raw.githubusercontent.com/cristianadam/qt-creator-nomo-icontheme/refs/heads/master/screenshots/macOS.png)
-![Screenshot-Linux](https://raw.githubusercontent.com/cristianadam/qt-creator-nomo-icontheme/refs/heads/master/screenshots/Linux.png)
 ![Screenshot-Windows](https://raw.githubusercontent.com/x-tools-author/qt-creator-vscode-icons-theme/refs/heads/master/screenshots/Windows.png)
+![Screenshot-Windows](https://raw.githubusercontent.com/x-tools-author/qt-creator-vscode-icons-theme/refs/heads/master/screenshots/WindowsLight.png)
 
-# License
+## License
 
-```
+```txt
 MIT License
 
 Copyright 2026 x-tools-author(x-tools@outlook.com)

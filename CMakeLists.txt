@@ -43,6 +43,12 @@ find_package(
   Qt6
   COMPONENTS Gui GuiPrivate Svg
   REQUIRED)
+if(QT_VERSION VERSION_LESS "6.10.0")
+  find_package(
+    Qt6
+    COMPONENTS GuiPrivate
+    REQUIRED)
+endif()
 
 add_qtc_plugin(
   VSCodeIconsTheme
