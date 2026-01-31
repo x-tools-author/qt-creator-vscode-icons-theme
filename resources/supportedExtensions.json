@@ -4400,5 +4400,12 @@
       "qrc"
     ],
     "filename": false
+  },
+  {
+    "icon": "docker",
+    "extensions": [
+      "dockerfile"
+    ],
+    "filename": true
   }
 ]
