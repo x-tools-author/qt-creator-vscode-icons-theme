@@ -107,6 +107,111 @@ static void registerIcons()
     registerIcon(VS_CODE_FILE_ICON("image"), "image/icns");
 }
 
+static QIcon getFolderIcon(const QString& folderName)
+{
+    static QMap<QString, QString> folderIconCache;
+    if (folderIconCache.isEmpty()) {
+        QFile supportedFoldersFile(":/resources/supportedFolders.json");
+        if (!supportedFoldersFile.open(QIODevice::ReadOnly)) {
+            qCWarning(debugLog) << "Failed to open supportedFolders.json";
+            return QIcon();
+        }
+
+        const QByteArray data = supportedFoldersFile.readAll();
+        supportedFoldersFile.close();
+
+        folderIconCache.clear();
+        const QJsonDocument jsonDoc = QJsonDocument::fromJson(data);
+        const QJsonArray rootArray = jsonDoc.array();
+        for (const QJsonValue& value : rootArray) {
+            const QJsonObject obj = value.toObject();
+            const QString icon = obj.value("icon").toString();
+            const QJsonArray folders = obj.value("folders").toArray();
+            for (const QJsonValue& folder : folders) {
+                const QString folderName = folder.toString();
+                folderIconCache.insert(folderName, icon);
+            }
+        }
+    }
+
+    // Not VS Code folder icons
+    if (folderName.toLower() == QString(".qtcreator")) {
+        return QIcon(NOT_VS_CODE_ICON("qt"));
+    }
+
+    // VS Code folder icon
+    QString iconName = folderIconCache.value(folderName.toLower());
+    QString iconFile = VS_CODE_ICON_ROOT + QString("/folder_type_%1.svg").arg(iconName);
+    if (QFile::exists(iconFile)) {
+        QIcon folderIcon(iconFile);
+        QString openedIconFile = VS_CODE_ICON_ROOT
+                                 + QString("/folder_type_%1_opened.svg").arg(iconName);
+        if (QFile::exists(openedIconFile)) {
+            folderIcon.addFile(openedIconFile, QSize(), QIcon::Normal, QIcon::On);
+        }
+        return folderIcon;
+    }
+
+    // Default folder icon
+    QIcon folderIcon(VS_CODE_ICON("default_folder"));
+    QString opened = VS_CODE_ICON("default_folder_opened");
+    if (QFile::exists(opened)) {
+        folderIcon.addFile(opened, QSize(), QIcon::Normal, QIcon::On);
+    }
+    return folderIcon;
+}
+
+static QIcon getFileIcon(const QFileInfo& info)
+{
+    // Load file icon cache from json
+    static QMap<QString, QString> fileIconCache;
+    if (fileIconCache.isEmpty()) {
+        QFile supportedExtensionsFile(":/resources/supportedExtensions.json");
+        if (!supportedExtensionsFile.open(QIODevice::ReadOnly)) {
+            return QIcon(VS_CODE_ICON("default_file"));
+        }
+
+        const QByteArray data = supportedExtensionsFile.readAll();
+        supportedExtensionsFile.close();
+        fileIconCache.clear();
+        const QJsonDocument jsonDoc = QJsonDocument::fromJson(data);
+        const QJsonArray rootArray = jsonDoc.array();
+        for (const QJsonValue& value : rootArray) {
+            const QJsonObject obj = value.toObject();
+            const QString icon = obj.value("icon").toString();
+            const QJsonArray extensions = obj.value("extensions").toArray();
+            for (const QJsonValue& extension : extensions) {
+                const QString extensionStr = extension.toString();
+                fileIconCache.insert(extensionStr, icon);
+            }
+        }
+    }
+
+    QString cookedSuffix;
+    if (fileIconCache.contains(info.fileName())) {
+        cookedSuffix = info.fileName();
+    } else if (info.fileName().startsWith('.') && fileIconCache.contains(info.fileName().mid(1))) {
+        cookedSuffix = info.fileName().mid(1);
+    } else if (fileIconCache.contains(info.completeSuffix())) {
+        cookedSuffix = info.completeSuffix();
+    } else if (fileIconCache.contains(info.suffix())) {
+        cookedSuffix = info.suffix();
+    }
+
+    const QString iconName = fileIconCache.value(cookedSuffix.toLower());
+    QString iconFile = VS_CODE_FILE_ICON(iconName);
+    if (QFile::exists(iconFile)) {
+        return QIcon(iconFile);
+    } else {
+        QString tmp = QString(":/res/%1.svg").arg(iconName);
+        if (QFile::exists(tmp)) {
+            return QIcon(tmp);
+        }
+    }
+
+    return QIcon(VS_CODE_ICON("default_file"));
+}
+
 class SVGIconOffOnEngine : public QIconEngine
 {
     QByteArray dataOff;
@@ -131,16 +236,18 @@ public:
         dataOff = readFile(offIcon);
         dataOn = readFile(onIcon);
     }
+
     void paint(QPainter* painter, const QRect& rect, QIcon::Mode mode, QIcon::State state) override
     {
         QSvgRenderer renderer(state == QIcon::Off ? dataOff : dataOn);
         renderer.render(painter, rect);
     }
+
     QIconEngine* clone() const override { return new SVGIconOffOnEngine(*this); }
+
     QPixmap pixmap(const QSize& size, QIcon::Mode mode, QIcon::State state) override
     {
-        // This function is necessary to create an EMPTY pixmap. It's called always
-        // before paint()
+        // This function is necessary to create an EMPTY pixmap. It's called always before paint()
         QImage img(size, QImage::Format_ARGB32);
         img.fill(qRgba(0, 0, 0, 0));
         QPixmap pix = QPixmap::fromImage(img, Qt::NoFormatConversion);
@@ -156,53 +263,11 @@ public:
 class VSCodeIconsPlatformTheme : public QPlatformTheme
 {
 public:
-    QPlatformTheme* m_thePlatformTheme = nullptr;
-    QMap<QString, QString> m_fileIconCache;   // <extension, icon>
-    QMap<QString, QString> m_folderIconCache; // <folder name, icon>
+    QPlatformTheme* m_platformTheme = nullptr;
 
     VSCodeIconsPlatformTheme(QPlatformTheme* platformTheme)
-        : m_thePlatformTheme(platformTheme)
-    {
-        // Load file icon cache from json
-        QFile supportedExtensionsFile(":/resources/supportedExtensions.json");
-        if (supportedExtensionsFile.open(QIODevice::ReadOnly)) {
-            const QByteArray data = supportedExtensionsFile.readAll();
-            supportedExtensionsFile.close();
-
-            m_fileIconCache.clear();
-            const QJsonDocument jsonDoc = QJsonDocument::fromJson(data);
-            const QJsonArray rootArray = jsonDoc.array();
-            for (const QJsonValue& value : rootArray) {
-                const QJsonObject obj = value.toObject();
-                const QString icon = obj.value("icon").toString();
-                const QJsonArray extensions = obj.value("extensions").toArray();
-                for (const QJsonValue& extension : extensions) {
-                    const QString extensionStr = extension.toString();
-                    m_fileIconCache.insert(extensionStr, icon);
-                }
-            }
-        }
-
-        // Load folder icon cache from json
-        QFile supportedFoldersFile(":/resources/supportedFolders.json");
-        if (supportedFoldersFile.open(QIODevice::ReadOnly)) {
-            const QByteArray data = supportedFoldersFile.readAll();
-            supportedFoldersFile.close();
-
-            m_folderIconCache.clear();
-            const QJsonDocument jsonDoc = QJsonDocument::fromJson(data);
-            const QJsonArray rootArray = jsonDoc.array();
-            for (const QJsonValue& value : rootArray) {
-                const QJsonObject obj = value.toObject();
-                const QString icon = obj.value("icon").toString();
-                const QJsonArray folders = obj.value("folders").toArray();
-                for (const QJsonValue& folder : folders) {
-                    const QString folderName = folder.toString();
-                    m_folderIconCache.insert(folderName, icon);
-                }
-            }
-        }
-    }
+        : m_platformTheme(platformTheme)
+    {}
 
     QVariant themeHint(ThemeHint hint) const override
     {
@@ -210,68 +275,67 @@ public:
             qCDebug(debugLog) << "themeHint" << "QPlatformTheme::PreferFileIconFromTheme";
             return false;
         }
-        return m_thePlatformTheme->themeHint(hint);
+        return m_platformTheme->themeHint(hint);
     }
 
     QPlatformMenuItem* createPlatformMenuItem() const override
     {
-        return m_thePlatformTheme->createPlatformMenuItem();
+        return m_platformTheme->createPlatformMenuItem();
     }
 
     QPlatformMenu* createPlatformMenu() const override
     {
-        return m_thePlatformTheme->createPlatformMenu();
+        return m_platformTheme->createPlatformMenu();
     }
 
     QPlatformMenuBar* createPlatformMenuBar() const override
     {
-        return m_thePlatformTheme->createPlatformMenuBar();
+        return m_platformTheme->createPlatformMenuBar();
     }
 
-    void showPlatformMenuBar() override { return m_thePlatformTheme->showPlatformMenuBar(); }
+    void showPlatformMenuBar() override { return m_platformTheme->showPlatformMenuBar(); }
 
     bool usePlatformNativeDialog(DialogType type) const override
     {
-        return m_thePlatformTheme->usePlatformNativeDialog(type);
+        return m_platformTheme->usePlatformNativeDialog(type);
     }
 
     QPlatformDialogHelper* createPlatformDialogHelper(DialogType type) const override
     {
-        return m_thePlatformTheme->createPlatformDialogHelper(type);
+        return m_platformTheme->createPlatformDialogHelper(type);
     }
 
     QPlatformSystemTrayIcon* createPlatformSystemTrayIcon() const override
     {
-        return m_thePlatformTheme->createPlatformSystemTrayIcon();
+        return m_platformTheme->createPlatformSystemTrayIcon();
     }
 
-    Qt::ColorScheme colorScheme() const override { return m_thePlatformTheme->colorScheme(); }
+    Qt::ColorScheme colorScheme() const override { return m_platformTheme->colorScheme(); }
 
     const QPalette* palette(Palette type = SystemPalette) const override
     {
-        return m_thePlatformTheme->palette(type);
+        return m_platformTheme->palette(type);
     }
 
-    const QFont* font(Font type = SystemFont) const override
-    {
-        return m_thePlatformTheme->font(type);
-    }
+    const QFont* font(Font type = SystemFont) const override { return m_platformTheme->font(type); }
 
     QPixmap standardPixmap(StandardPixmap sp, const QSizeF& size) const override
     {
         qCDebug(debugLog) << "standardPixmap" << sp << size;
 
-        static QHash<StandardPixmap, QIcon>
-            standardPixMapHash{{QPlatformTheme::DirIcon, QIcon(VS_CODE_ICON("default_folder"))},
-                               {QPlatformTheme::DirOpenIcon,
-                                QIcon(VS_CODE_ICON("default_folder_opened"))},
-                               {QPlatformTheme::FileIcon, QIcon(VS_CODE_ICON("default_file"))}};
+        static QHash<StandardPixmap, QIcon> pixHash;
+        if (pixHash.isEmpty()) {
+            pixHash.insert(QPlatformTheme::DirIcon, QIcon(VS_CODE_ICON("default_folder")));
+            pixHash.insert(QPlatformTheme::DirOpenIcon,
+                           QIcon(VS_CODE_ICON("default_folder_opened")));
+            pixHash.insert(QPlatformTheme::FileIcon, QIcon(VS_CODE_ICON("default_file")));
+        };
 
-        if (standardPixMapHash.contains(sp)) {
-            return standardPixMapHash.value(sp).pixmap(size.width(), size.height());
+        if (pixHash.contains(sp)) {
+            return pixHash.value(sp).pixmap(size.width(), size.height());
         }
 
-        return m_thePlatformTheme->standardPixmap(sp, size);
+        return m_platformTheme->standardPixmap(sp, size);
     }
 
     QIcon fileIcon(const QFileInfo& fileInfo, QPlatformTheme::IconOptions iconOptions) const override
@@ -280,60 +344,12 @@ public:
         qCDebug(debugLog) << "fileIcon" << fileInfo.filePath();
 
         if (fileInfo.isDir()) {
-            if (fileInfo.fileName() == QString(".qtcreator")) {
-                return QIcon(NOT_VS_CODE_ICON("qt"));
-            }
-
-            QString folderName = fileInfo.fileName().toLower();
-            QString iconName = m_folderIconCache.value(folderName.toLower());
-            QString iconFile = VS_CODE_ICON_ROOT + QString("/folder_type_%1.svg").arg(iconName);
-            if (QFile::exists(iconFile)) {
-                QIcon folderIcon(iconFile);
-                QString openedIconFile = VS_CODE_ICON_ROOT
-                                         + QString("/folder_type_%1_opened.svg").arg(iconName);
-                if (QFile::exists(openedIconFile)) {
-                    folderIcon.addFile(openedIconFile, QSize(), QIcon::Normal, QIcon::On);
-                }
-                return folderIcon;
-            } else {
-                QIcon folderIcon(VS_CODE_ICON("default_folder"));
-                QString opened = VS_CODE_ICON("default_folder_opened");
-                if (QFile::exists(opened)) {
-                    folderIcon.addFile(opened, QSize(), QIcon::Normal, QIcon::On);
-                }
-                return folderIcon;
-            }
+            return getFolderIcon(fileInfo.fileName());
+        } else if (fileInfo.isFile()) {
+            return getFileIcon(fileInfo);
         }
 
-        if (fileInfo.isFile()) {
-            // Full file name match first, such as "Makefile", "Dockerfile", "CMakeLists.txt"
-            if (m_fileIconCache.contains(fileInfo.fileName())) {
-                const QString iconName = m_fileIconCache.value(fileInfo.fileName());
-                auto iconFile = QString(":/3rd/vscode-icons/icons/file_type_%1.svg").arg(iconName);
-                if (QFile::exists(iconFile)) {
-                    return QIcon(iconFile);
-                }
-            }
-
-            // Then try complete suffix match, such as "xxx.knip.json" -> "knip.json"
-            QString suffix = fileInfo.completeSuffix();
-            if (!m_fileIconCache.contains(suffix.toLower())) {
-                // Try only the last suffix, such as "xxx.cpp" -> "cpp"
-                suffix = fileInfo.suffix();
-            }
-
-            const QString iconName = m_fileIconCache.value(suffix.toLower());
-            auto iconFile = QString(":/3rd/vscode-icons/icons/file_type_%1.svg").arg(iconName);
-            if (QFile::exists(iconFile)) {
-                return QIcon(iconFile);
-            } else {
-                QString tmp = QString(":/res/%1.svg").arg(iconName);
-                if (QFile::exists(tmp)) {
-                    return QIcon(tmp);
-                }
-            }
-        }
-        return QIcon(":/3rd/vscode-icons/icons/default_file.svg");
+        return QIcon(VS_CODE_ICON("default_file"));
     }
 
     QIconEngine* createIconEngine(const QString& iconName) const override
@@ -349,27 +365,27 @@ public:
             return new SVGIconOffOnEngine(VS_CODE_FILE_ICON("default_file"), QString());
         }
 
-        return m_thePlatformTheme->createIconEngine(iconName);
+        return m_platformTheme->createIconEngine(iconName);
     }
 
     QList<QKeySequence> keyBindings(QKeySequence::StandardKey key) const override
     {
-        return m_thePlatformTheme->keyBindings(key);
+        return m_platformTheme->keyBindings(key);
     }
 
     QString standardButtonText(int button) const override
     {
-        return m_thePlatformTheme->standardButtonText(button);
+        return m_platformTheme->standardButtonText(button);
     }
 
     QKeySequence standardButtonShortcut(int button) const override
     {
-        return m_thePlatformTheme->standardButtonShortcut(button);
+        return m_platformTheme->standardButtonShortcut(button);
     }
 
     void requestColorScheme(Qt::ColorScheme scheme) override
     {
-        return m_thePlatformTheme->requestColorScheme(scheme);
+        return m_platformTheme->requestColorScheme(scheme);
     }
 };
 
@@ -435,7 +451,7 @@ public:
 
     ShutdownFlag aboutToShutdown() override
     {
-        QGuiApplicationPrivate::platform_theme = m_platformTheme.m_thePlatformTheme;
+        QGuiApplicationPrivate::platform_theme = m_platformTheme.m_platformTheme;
         return SynchronousShutdown;
     }
 };

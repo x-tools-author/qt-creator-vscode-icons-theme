@@ -10,7 +10,7 @@
     "SoftLoadable" : true,
     "Description" : "Custom icon theme for Qt Creator",
     "LongDescription" : ${LONG_DESCRIPTION},
-    "Url" : "https://github.com/cristianadam/qt-creator-icontheme",
+    "Url" : "https://github.com/x-tools-author/qt-creator-vscode-icons-theme",
     "DocumentationUrl" : "",
     ${IDE_PLUGIN_DEPENDENCIES}
 }
