@@ -323,7 +323,20 @@ public:
         return m_platformTheme->palette(type);
     }
 
-    const QFont* font(Font type = SystemFont) const override { return m_platformTheme->font(type); }
+    const QFont* font(Font type = SystemFont) const override
+    {
+        if (type == ItemViewFont) {
+            const QFont* font = m_platformTheme->font(ItemViewFont);
+            if (!font) {
+                return nullptr;
+            }
+
+            static QFont listViewFont(*font);
+            listViewFont.setPixelSize(14);
+            return &listViewFont;
+        }
+        return m_platformTheme->font(type);
+    }
 
     QPixmap standardPixmap(StandardPixmap sp, const QSizeF& size) const override
     {
