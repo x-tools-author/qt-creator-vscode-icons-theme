@@ -1,7 +1,7 @@
 # Qt Creator VSCode Icons Theme
 
 Custom icon theme for [Qt Creator](https://www.qt.io/product/development-tools).
-Based upon [Nomo Dark icon set for Visual Studio Code](https://github.com/be5invis/vscode-iconset).
+Based upon [vscode-icons](https://github.com/vscode-icons/vscode-icons).
 
 # Screenshots
 
@@ -14,7 +14,7 @@ Based upon [Nomo Dark icon set for Visual Studio Code](https://github.com/be5inv
 ```
 MIT License
 
-Copyright 2025-2026 x-tools-author(x-tools@outlook.com)
+Copyright 2026 x-tools-author(x-tools@outlook.com)
 Copyright 2025 Cristian Adam
 Copyright 2017-2021 Renzhi Li (a.k.a Belleve Invis)
 Copyright (c) 2019 Andreas Schulz
