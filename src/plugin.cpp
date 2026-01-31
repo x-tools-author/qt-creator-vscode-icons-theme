@@ -107,6 +107,16 @@ static void registerIcons()
     registerIcon(VS_CODE_FILE_ICON("image"), "image/icns");
 }
 
+static QIcon getDefaultFolderIcon()
+{
+    QIcon folderIcon(VS_CODE_ICON("default_folder"));
+    QString opened = VS_CODE_ICON("default_folder_opened");
+    if (QFile::exists(opened)) {
+        folderIcon.addFile(opened, QSize(), QIcon::Normal, QIcon::On);
+    }
+    return folderIcon;
+}
+
 static QIcon getFolderIcon(const QString& folderName)
 {
     static QMap<QString, QString> folderIconCache;
@@ -114,7 +124,7 @@ static QIcon getFolderIcon(const QString& folderName)
         QFile supportedFoldersFile(":/resources/supportedFolders.json");
         if (!supportedFoldersFile.open(QIODevice::ReadOnly)) {
             qCWarning(debugLog) << "Failed to open supportedFolders.json";
-            return QIcon();
+            return getDefaultFolderIcon();
         }
 
         const QByteArray data = supportedFoldersFile.readAll();
@@ -152,13 +162,7 @@ static QIcon getFolderIcon(const QString& folderName)
         return folderIcon;
     }
 
-    // Default folder icon
-    QIcon folderIcon(VS_CODE_ICON("default_folder"));
-    QString opened = VS_CODE_ICON("default_folder_opened");
-    if (QFile::exists(opened)) {
-        folderIcon.addFile(opened, QSize(), QIcon::Normal, QIcon::On);
-    }
-    return folderIcon;
+    return getDefaultFolderIcon();
 }
 
 static QIcon getFileIcon(const QFileInfo& info)
