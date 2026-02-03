@@ -329,6 +329,7 @@ public:
 
     const QFont* font(Font type = SystemFont) const override
     {
+#if 1
         if (type == ItemViewFont) {
             const QFont* font = m_platformTheme->font(ItemViewFont);
             if (!font) {
@@ -336,10 +337,11 @@ public:
             }
 
             static QFont listViewFont(*font);
-            int size = font->pixelSize() + 2;
-            listViewFont.setPixelSize(size < 12 ? 12 : size);
+            int size = font->pixelSize() + 3;
+            listViewFont.setPixelSize(size < 13 ? 13 : size);
             return &listViewFont;
         }
+#endif
         return m_platformTheme->font(type);
     }
 
