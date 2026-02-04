@@ -329,7 +329,7 @@ public:
 
     const QFont* font(Font type = SystemFont) const override
     {
-#if 1
+#if 0
         if (type == ItemViewFont) {
             const QFont* font = m_platformTheme->font(ItemViewFont);
             if (!font) {
